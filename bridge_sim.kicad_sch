@@ -1624,7 +1624,7 @@
 	)
 	(text "mcp4131 is jlc \"extended preferred\" so cheapppper\neven if only 129 steps"
 		(exclude_from_sim no)
-		(at 83.82 114.808 0)
+		(at 43.434 49.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3293,6 +3293,16 @@
 		)
 		(uuid "0f758613-d2d9-46cc-995b-dca2fb35d62a")
 	)
+	(text "It's about $60 for 5 assembled right now.  but adding a second channel of digipot would add ~$4 overral?\nhand soldering and manuall assembly is ~$5 already?"
+		(exclude_from_sim no)
+		(at 170.434 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e33ee29-255c-4d07-9e54-d960694c29fe")
+	)
 	(text "TOUCH PADS?"
 		(exclude_from_sim no)
 		(at 168.91 88.138 0)
@@ -5957,6 +5967,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2937625"
 			(at 125.73 43.18 0)
 			(effects
 				(font

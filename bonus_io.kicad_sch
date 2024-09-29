@@ -1256,6 +1256,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2937625"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0bd72f7-69ca-4fcc-a86e-0f67852a187f")
 		)
@@ -1461,6 +1470,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2937625"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b8e9306-0a13-4565-b7b0-5c80f7ece93c")
 		)
@@ -1600,6 +1618,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2937625"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6a436ee-7529-45e5-9a9b-5a2dec84fb5a")
 		)
@@ -1665,6 +1692,15 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 81.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2937625"
 			(at 81.28 72.39 0)
 			(effects
 				(font
@@ -1746,6 +1782,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2937625"
+			(at 81.28 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "885c4c26-715b-42bf-ae68-764bb35c87fe")
 		)
@@ -1811,6 +1856,15 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C2937625"
 			(at 81.28 97.79 0)
 			(effects
 				(font

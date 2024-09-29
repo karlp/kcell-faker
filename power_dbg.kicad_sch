@@ -4484,6 +4484,15 @@
 				(hide yes)
 			)
 		)
+		(property "lcsc#" "C2840336"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f6d0a0d-304d-4656-95bb-8b2c11f463ea")
 		)
