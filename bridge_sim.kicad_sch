@@ -1104,6 +1104,18 @@
 		(uuid "645388eb-85a4-4cd6-b417-fb85d653db8c")
 	)
 	(junction
+		(at 213.36 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ac4d3b-8174-4b2b-b579-ecf101c40e3e")
+	)
+	(junction
+		(at 213.36 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907cc614-359b-4705-9f2d-7b7ff22c6b6d")
+	)
+	(junction
 		(at 220.98 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1114,6 +1126,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aac82e35-86f0-43ea-8b0c-26423db1fe4c")
+	)
+	(junction
+		(at 213.36 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0c8cd8-a230-4849-ab93-6c8e0f28cfdf")
 	)
 	(junction
 		(at 220.98 83.82)
@@ -1127,15 +1145,31 @@
 		(color 0 0 0 0)
 		(uuid "e1f9b7e8-75b1-4f09-952c-068b0341e618")
 	)
+	(junction
+		(at 213.36 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e39648f5-8c6a-4cb3-a338-2334ab335693")
+	)
 	(wire
 		(pts
-			(xy 215.9 88.9) (xy 226.06 88.9)
+			(xy 208.28 91.44) (xy 226.06 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0487f4a9-db0a-4246-aa07-d9ada9c0b390")
+		(uuid "020e9ea8-b604-469e-8c73-4eb52637729b")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037883cc-1ee0-42f5-945f-ca3b4d6c3b66")
 	)
 	(wire
 		(pts
@@ -1186,16 +1220,6 @@
 			(type default)
 		)
 		(uuid "23f64b60-342b-4d20-b1ce-73705bf08def")
-	)
-	(wire
-		(pts
-			(xy 215.9 91.44) (xy 226.06 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb4090f-32a3-4a1d-b9ab-4129040451f8")
 	)
 	(wire
 		(pts
@@ -1269,6 +1293,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51852804-fd06-428c-86c2-4eb18f283b8a")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53294ef9-170b-453b-97b6-cdcfdeb3c16e")
+	)
+	(wire
+		(pts
 			(xy 220.98 78.74) (xy 220.98 83.82)
 		)
 		(stroke
@@ -1326,6 +1370,16 @@
 			(type default)
 		)
 		(uuid "6909fc94-94a1-4ef8-8d06-9f4934c610a4")
+	)
+	(wire
+		(pts
+			(xy 208.28 86.36) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e04037-cbd9-48e6-a7a8-648b429d67b2")
 	)
 	(wire
 		(pts
@@ -1426,6 +1480,16 @@
 			(type default)
 		)
 		(uuid "ae2bc006-5491-4e0e-8068-38c16e87ac3d")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca16819-6166-4826-b46a-a1199b6ce678")
 	)
 	(wire
 		(pts
@@ -1864,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -2045,7 +2109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -2142,7 +2206,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 134.62 93.98 0)
 			(effects
 				(font
@@ -2239,7 +2303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 81.28 0)
 			(effects
 				(font
@@ -2336,7 +2400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 93.98 0)
 			(effects
 				(font
@@ -2406,6 +2470,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 203.2 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b6af6e6a-bd68-4f04-874d-526724d6af83")
+		(property "Reference" "J5"
+			(at 203.2 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc5aed0-b405-4f2c-81db-af4b1e310207")
+		)
+		(pin "4"
+			(uuid "f4decc91-e9b8-4f5d-bdd3-2d504522efd5")
+		)
+		(pin "6"
+			(uuid "039002b1-eb8a-4685-a44a-3139212cd806")
+		)
+		(pin "3"
+			(uuid "5947bfbc-21c5-48f6-8f73-bf5b9c5ee3c9")
+		)
+		(pin "2"
+			(uuid "72484ee1-f829-40ec-9227-1b5a8e8db8e2")
+		)
+		(pin "5"
+			(uuid "84fee400-5281-4ae4-8d52-649b1a539486")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 177.8 93.98 180)
 		(unit 1)
@@ -2433,7 +2577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -2596,7 +2740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MC_1,5_6-G-3.5_1x06_P3.50mm_Horizontal"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -2615,6 +2759,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC15EDGRC-3.5-6P-V"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc#" "C22380443"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc2#" "C395837"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -2810,7 +2981,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.18 81.28 0)
 			(effects
 				(font
