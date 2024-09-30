@@ -3462,6 +3462,16 @@
 		)
 		(uuid "18305e87-d5fe-48d6-aab6-febc507b0e19")
 	)
+	(text "Dealon USB-TYPE-C-018 C2927038 0.04\nG-Switch GT-USB-7010ASV C2988369 0.07\nXKB U262-161N-4BVC11 C319148  0.21"
+		(exclude_from_sim no)
+		(at 175.006 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "555d6223-1bdd-40fd-aa3f-668f76d27e77")
+	)
 	(text "Lol, no, there's enough\ncaps going around"
 		(exclude_from_sim no)
 		(at 87.63 66.04 0)
@@ -3913,7 +3923,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C15850"
+		(property "jlc-basic" "1"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -3922,7 +3932,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
+		(property "LCSC Part#" "C15850"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -4085,7 +4095,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C15850"
+		(property "jlc-basic" "1"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -4094,7 +4104,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
+		(property "LCSC Part#" "C15850"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -4312,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C6332249"
+		(property "lcsc2#" ""
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -4321,7 +4331,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc2#" ""
+		(property "LCSC Part#" "C6332249"
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -4422,15 +4432,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C23186"
-			(at 195.58 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "0603WAF5101T5E"
 			(at 195.58 81.28 0)
 			(effects
@@ -4459,6 +4460,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C23186"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -4538,7 +4548,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C430323"
+		(property "MPN" "DB2ERC-3.81-2P-BK"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -4547,7 +4557,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DB2ERC-3.81-2P-BK"
+		(property "LCSC Part#" "C430323"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -4641,7 +4651,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C21189"
+		(property "jlcbasic" "basic"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4650,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcbasic" "basic"
+		(property "LCSC Part#" "C21189"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4727,15 +4737,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C2927038"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "USB-TYPE-C-018"
 			(at 157.48 88.9 0)
 			(effects
@@ -4755,6 +4756,15 @@
 			)
 		)
 		(property "lcsc2#" ""
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C2927038"
 			(at 157.48 88.9 0)
 			(effects
 				(font
@@ -5154,15 +5164,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C7420376"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 220.98 91.44 0)
 			(effects
@@ -5191,6 +5192,15 @@
 			)
 		)
 		(property "MPN" " SRV05-4"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C7420376"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -5355,15 +5365,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C23186"
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "0603WAF5101T5E"
 			(at 195.58 78.74 0)
 			(effects
@@ -5392,6 +5393,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C23186"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -5813,7 +5823,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C6186"
+		(property "jlcbasic" "basic"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -5822,7 +5832,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcbasic" "basic"
+		(property "LCSC Part#" "C6186"
 			(at 63.5 58.42 0)
 			(effects
 				(font

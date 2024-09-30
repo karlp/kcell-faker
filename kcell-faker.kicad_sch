@@ -4137,15 +4137,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 104.14 182.88 0)
 			(effects
@@ -4165,6 +4156,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 104.14 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 104.14 182.88 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C2913206"
+		(property "LCSC Part#" "C2913206"
 			(at 86.36 55.88 0)
 			(effects
 				(font
@@ -4716,15 +4716,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C318884"
-			(at 99.06 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "TS-1187A-B-A-B"
 			(at 99.06 177.8 0)
 			(effects
@@ -4753,6 +4744,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C318884"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -4840,15 +4840,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 81.28 182.88 0)
 			(effects
@@ -4868,6 +4859,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 81.28 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 81.28 182.88 0)
 			(effects
 				(font
@@ -5010,15 +5010,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C318884"
-			(at 177.8 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "TS-1187A-B-A-B"
 			(at 177.8 66.04 0)
 			(effects
@@ -5047,6 +5038,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C318884"
 			(at 177.8 66.04 0)
 			(effects
 				(font
@@ -5143,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C2297"
+		(property "LCSC Part#" "C2297"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C23138"
+		(property "jlcbasic" "basic"
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -5249,7 +5249,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcbasic" "basic"
+		(property "LCSC Part#" "C23138"
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -5403,15 +5403,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 129.54 182.88 0)
 			(effects
@@ -5431,6 +5422,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 129.54 182.88 0)
 			(effects
 				(font
@@ -5658,15 +5658,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C25804"
-			(at 195.58 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "lcsc2#" ""
 			(at 195.58 60.96 0)
 			(effects
@@ -5677,6 +5668,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C25804"
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -5764,15 +5764,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 182.88 71.12 0)
 			(effects
@@ -5792,6 +5783,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 182.88 71.12 0)
 			(effects
 				(font
@@ -5888,15 +5888,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C15849"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "lcsc2#" ""
 			(at 195.58 71.12 0)
 			(effects
@@ -5907,6 +5898,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C15849"
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -6001,15 +6001,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C25804"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "lcsc2#" ""
 			(at 55.88 43.18 0)
 			(effects
@@ -6020,6 +6011,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C25804"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -6106,7 +6106,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C15850"
+		(property "jlc-basic" "1"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -6115,7 +6115,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
+		(property "LCSC Part#" "C15850"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -6192,15 +6192,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C318884"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "TS-1187A-B-A-B"
 			(at 76.2 177.8 0)
 			(effects
@@ -6229,6 +6220,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C318884"
 			(at 76.2 177.8 0)
 			(effects
 				(font
@@ -6325,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C84256"
+		(property "LCSC Part#" "C84256"
 			(at 48.26 170.18 0)
 			(effects
 				(font
@@ -6422,7 +6422,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C23138"
+		(property "jlcbasic" "basic"
 			(at 35.56 179.07 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlcbasic" "basic"
+		(property "LCSC Part#" "C23138"
 			(at 35.56 179.07 0)
 			(effects
 				(font
@@ -6510,7 +6510,7 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C2937625"
+		(property "LCSC Part#" "C2937625"
 			(at 129.54 33.02 0)
 			(effects
 				(font
@@ -6733,15 +6733,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 160.02 71.12 0)
 			(effects
@@ -6761,6 +6752,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -7035,15 +7035,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C318884"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "TS-1187A-B-A-B"
 			(at 154.94 66.04 0)
 			(effects
@@ -7072,6 +7063,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C318884"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -7148,15 +7148,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C318884"
-			(at 124.46 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "TS-1187A-B-A-B"
 			(at 124.46 177.8 0)
 			(effects
@@ -7185,6 +7176,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C318884"
 			(at 124.46 177.8 0)
 			(effects
 				(font
@@ -7338,15 +7338,6 @@
 				(hide yes)
 			)
 		)
-		(property "lcsc#" "C14663"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlc-basic" "1"
 			(at 144.78 30.48 0)
 			(effects
@@ -7366,6 +7357,15 @@
 			)
 		)
 		(property "jlcbasic" "basic"
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
 			(at 144.78 30.48 0)
 			(effects
 				(font
