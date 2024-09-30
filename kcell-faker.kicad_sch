@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "dc836b5d-e5fb-485d-8f74-ab331e55e69f")
 	(paper "A4")
+	(title_block
+		(title "LoadCell Faker")
+		(date "2024-09-30")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -2356,7 +2361,7 @@
 		(uuid "0a1d3db3-8e7b-4121-9271-36dc9aff1f9b")
 	)
 	(bus_entry
-		(at 55.88 71.12)
+		(at 55.88 60.96)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2383,7 +2388,7 @@
 		(uuid "9033f378-a048-4ca7-b5c3-82d387314a5b")
 	)
 	(bus_entry
-		(at 55.88 73.66)
+		(at 55.88 63.5)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2460,16 +2465,6 @@
 		)
 		(uuid "13e7a9c4-a0f6-4064-9daa-54fbca983a9b")
 	)
-	(bus
-		(pts
-			(xy 53.34 73.66) (xy 53.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c13b02-e8b0-457f-a320-b622a80d4e62")
-	)
 	(wire
 		(pts
 			(xy 195.58 66.04) (xy 195.58 68.58)
@@ -2479,6 +2474,16 @@
 			(type default)
 		)
 		(uuid "1a51ed0a-ccd0-4054-bc65-781575fdf617")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e62f480-65f0-49a8-b9a6-4e7c4c0310f9")
 	)
 	(wire
 		(pts
@@ -2502,6 +2507,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 78.74) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d20877b-d5ab-492f-99fe-2c4c3111578c")
+	)
+	(wire
+		(pts
 			(xy 182.88 66.04) (xy 195.58 66.04)
 		)
 		(stroke
@@ -2522,16 +2537,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 63.5) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9bbb89-8c5e-420e-a025-23181d53cd96")
-	)
-	(wire
-		(pts
 			(xy 106.68 55.88) (xy 101.6 55.88)
 		)
 		(stroke
@@ -2549,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "3e2984a0-c4d3-4315-a0cb-349f117b6a9c")
+	)
+	(bus
+		(pts
+			(xy 53.34 86.36) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411e61a8-88ef-4f1f-8a8b-6f06b6057d3f")
 	)
 	(wire
 		(pts
@@ -2592,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48895f71-0b33-45bb-b7ab-a3769134d11a")
+	)
+	(wire
+		(pts
 			(xy 144.78 27.94) (xy 144.78 25.4)
 		)
 		(stroke
@@ -2612,7 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 71.12 71.12)
+			(xy 55.88 60.96) (xy 71.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2629,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "51277c51-c15a-494d-86e9-9c4188e5ffcb")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cb3808-d34d-4d5e-b65a-4ac007a85822")
 	)
 	(wire
 		(pts
@@ -2659,6 +2694,16 @@
 			(type default)
 		)
 		(uuid "546d00ba-611b-4e68-ac02-d0955676df87")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a61e09f-c649-4ffb-8004-13d61dbf0329")
 	)
 	(wire
 		(pts
@@ -2769,6 +2814,16 @@
 			(type default)
 		)
 		(uuid "78a89ca6-6310-4985-8b9d-403d654822ad")
+	)
+	(bus
+		(pts
+			(xy 53.34 63.5) (xy 53.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794afd89-7028-4365-854e-ed92b3c5889c")
 	)
 	(wire
 		(pts
@@ -2942,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eebe6cf-41cb-46bd-82a0-8212bd96b27b")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 101.6 48.26)
 		)
 		(stroke
@@ -3042,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 71.12 73.66)
+			(xy 55.88 63.5) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3102,7 +3167,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 76.2) (xy 53.34 80.01)
+			(xy 53.34 66.04) (xy 53.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3202,17 +3267,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 139.7) (xy 229.87 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d562c99a-ec8f-48c1-b38a-3f356cec8a6f")
-	)
-	(bus
-		(pts
-			(xy 53.34 60.96) (xy 53.34 73.66)
+			(xy 53.34 60.96) (xy 53.34 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3302,16 +3357,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6928e5-f7cc-4b43-a230-e0c868a49205")
-	)
-	(wire
-		(pts
 			(xy 175.26 35.56) (xy 175.26 38.1)
 		)
 		(stroke
@@ -3319,6 +3364,16 @@
 			(type default)
 		)
 		(uuid "eb0fe3fa-e4a5-48fe-a299-3b70e24f04c9")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f280e941-69c1-45d7-91ee-61b407e90f6d")
 	)
 	(wire
 		(pts
@@ -3380,6 +3435,17 @@
 		)
 		(uuid "fff43b7e-58bb-4d6e-8b33-b3b7ea7b4a71")
 	)
+	(text "We don't need to use \"super fast\" spi\nSo we're using SPI2 via the gpio matrix,\nnot the IOmux options.\nThis means we can free route based on layout\nas long as we avoid hazard pins"
+		(exclude_from_sim no)
+		(at 55.88 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0741b9fd-3675-43ed-9708-3d2b17d9b846")
+	)
 	(text "GPIO45 flash voltage\nGPIO46 part of boot sel -> just avoid"
 		(exclude_from_sim no)
 		(at 104.902 75.438 0)
@@ -3424,9 +3490,9 @@
 		)
 		(uuid "b95e17ed-c723-42d1-bd0b-2c0915da5a30")
 	)
-	(text "Manual Controls\nButton for range?\nLED for range? green for range,\nred for upper limit, lower limit?\nOr just range led, and other leds are  just unused right now?\nblink on button press?\nLit when anything is at limit?"
+	(text "Manual Controls\nRange button toggles coarse/fine digipot\nUp/down just \"up/down\" the spi value for the appropriate range\nGreen LED: which range is in use\nRed LED: ....? current range value has hit a limit?"
 		(exclude_from_sim no)
-		(at 28.194 141.224 0)
+		(at 26.924 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3447,13 +3513,13 @@
 		(uuid "035e1787-564e-43dc-90f3-817990db3a1c")
 	)
 	(label "SPI2_CS0"
-		(at 66.04 60.96 180)
+		(at 106.68 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "03bee0d4-50ff-408a-8347-65aa0c4fa5a5")
 	)
@@ -3480,13 +3546,13 @@
 		(uuid "2396ea47-2714-4866-84b8-99c66230ba63")
 	)
 	(label "BTN_RANGE"
-		(at 106.68 58.42 0)
+		(at 66.04 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "28f60ee7-8f6c-411b-a67a-5b9f0c3bab08")
 	)
@@ -3513,13 +3579,13 @@
 		(uuid "3bf9f3a0-60f8-4974-8a25-8d0e24ca737e")
 	)
 	(label "SPI2_CS1"
-		(at 66.04 55.88 180)
+		(at 106.68 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3dfce26f-93f9-4c39-9e62-c93f9f55c82a")
 	)
@@ -3533,6 +3599,17 @@
 			(justify left bottom)
 		)
 		(uuid "3e2beaed-c890-47bf-9820-ac925babd2f1")
+	)
+	(label "PWM_BRIDGE"
+		(at 223.52 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42b7d3e0-4d5c-4276-88dd-2bb0a9d2aa07")
 	)
 	(label "SPI2_CS0"
 		(at 223.52 48.26 180)
@@ -3568,24 +3645,24 @@
 		(uuid "6cb4c788-9898-4c15-8bb8-6f70b45a128d")
 	)
 	(label "LED1"
-		(at 106.68 43.18 0)
+		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7893df0c-d30f-44c8-81f3-7f9a33605be1")
 	)
 	(label "BTN_DOWN"
-		(at 106.68 55.88 0)
+		(at 66.04 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "841e9b47-bfb4-44ca-82da-621bae17b18d")
 	)
@@ -3601,18 +3678,18 @@
 		(uuid "90b034d3-7c6c-4ecf-8734-0b224885882e")
 	)
 	(label "LED2"
-		(at 106.68 48.26 0)
+		(at 66.04 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9e97a19d-864a-4f4f-a1b1-349f79f648c4")
 	)
 	(label "PWM5"
-		(at 58.42 71.12 0)
+		(at 58.42 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3621,6 +3698,17 @@
 			(justify left bottom)
 		)
 		(uuid "a33038fa-a75a-4285-9d08-74ed4849b5c1")
+	)
+	(label "PWM_BRIDGE"
+		(at 106.68 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0f200f0-b9cf-4d7b-9df1-e1a8a2691beb")
 	)
 	(label "BTN_RANGE"
 		(at 133.35 177.8 0)
@@ -3634,7 +3722,7 @@
 		(uuid "b6915edb-a9f8-4456-a3a2-8d4aa01e21cd")
 	)
 	(label "PWM6"
-		(at 58.42 73.66 0)
+		(at 58.42 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3656,13 +3744,13 @@
 		(uuid "cea301cc-dddf-4f81-ab27-76532a80ad55")
 	)
 	(label "SPI2_D"
-		(at 66.04 63.5 180)
+		(at 106.68 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "cf898f04-8d36-4997-945f-cf32c1dbdf21")
 	)
@@ -3722,7 +3810,7 @@
 		(uuid "e13a5589-07ae-476c-83ff-002416e07c33")
 	)
 	(label "BTN_UP"
-		(at 106.68 53.34 0)
+		(at 106.68 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3733,26 +3821,15 @@
 		(uuid "f0a74daf-1c02-4124-a6a4-a91c3875bb8b")
 	)
 	(label "SPI2_CLK"
-		(at 66.04 66.04 180)
+		(at 106.68 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f1dddb47-4335-49ef-be71-57eec4e2c25c")
-	)
-	(label "SPI2_Q"
-		(at 66.04 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f30fe98f-fee6-43eb-a88c-3a0c8b556359")
 	)
 	(global_label "JTAG_TMS"
 		(shape input)
@@ -4675,6 +4752,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be945239-83b6-423f-bb75-143367ea58b3")
 		)
@@ -4685,73 +4771,6 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50fa89de-81f1-403e-afce-7214d98b9efe")
-		(property "Reference" "#PWR026"
-			(at 52.07 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 44.45 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d2b9bb4-cbdb-4088-ad4a-fe3713a8c730")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4873,6 +4892,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 48.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a765a4d-6347-4b4c-97b0-b8754b966c06")
+		(property "Reference" "#PWR026"
+			(at 48.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65b59b25-ea05-4ffc-8161-0e83556b2abe")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 177.8 66.04 0)
 		(unit 1)
@@ -4953,6 +5038,15 @@
 			)
 		)
 		(property "lcsc2#" ""
+			(at 177.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 177.8 66.04 0)
 			(effects
 				(font
@@ -6134,6 +6228,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0828f2b5-baad-4f77-94ed-fdd936e625cd")
 		)
@@ -6968,6 +7071,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91026b64-3051-470c-a5cc-86c01fa468d6")
 		)
@@ -7064,6 +7176,15 @@
 			)
 		)
 		(property "lcsc2#" ""
+			(at 124.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 124.46 177.8 0)
 			(effects
 				(font
@@ -7338,6 +7459,16 @@
 			)
 			(uuid "4a0961cd-cd51-4c09-a04e-167eb4421cc2")
 		)
+		(pin "PWM_IN" input
+			(at 228.6 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8e8eb45-f938-45cc-bd8a-38d241043831")
+		)
 		(instances
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
@@ -7385,8 +7516,8 @@
 		)
 	)
 	(sheet
-		(at 229.87 128.27)
-		(size 38.1 21.59)
+		(at 16.51 80.01)
+		(size 26.67 21.59)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7397,7 +7528,7 @@
 		)
 		(uuid "e112639e-5269-479c-b374-3bf3c82a14e1")
 		(property "Sheetname" "bonus_io"
-			(at 229.87 127.5584 0)
+			(at 16.51 79.2984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7537,7 @@
 			)
 		)
 		(property "Sheetfile" "bonus_io.kicad_sch"
-			(at 229.87 150.4446 0)
+			(at 16.51 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,12 +7546,12 @@
 			)
 		)
 		(pin "PWM[1..6]" input
-			(at 229.87 139.7 180)
+			(at 43.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "34ba0fa3-9d66-4f4a-a111-ff2a513dae79")
 		)
