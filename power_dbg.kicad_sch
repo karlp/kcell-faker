@@ -4587,6 +4587,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 115.57 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3110f142-6d44-4302-936c-a4c57367a126")
 		)

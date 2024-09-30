@@ -571,7 +571,7 @@
           "group_by": false,
           "label": "jlc-basic",
           "name": "jlc-basic",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
