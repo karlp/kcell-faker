@@ -1,6 +1,7 @@
 *.kicad_prl
 *-backups/
 *.lck
+*.bak
 *.FCStd1
 *.kicad_sch-bak
 *.kicad_pcb-bak

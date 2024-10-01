@@ -2368,9 +2368,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2468,8 +2468,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2488,9 +2488,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2588,8 +2588,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2767,7 +2767,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3774,7 +3774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -3839,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -3933,6 +3933,15 @@
 			)
 		)
 		(property "LCSC Part#" "C15850"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -4002,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 157.48 38.1 0)
 			(effects
 				(font
@@ -4077,7 +4086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -4105,6 +4114,15 @@
 			)
 		)
 		(property "LCSC Part#" "C15850"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -4172,7 +4190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -4237,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -4304,7 +4322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -4423,7 +4441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -4624,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4879,7 +4897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 167.64 43.18 0)
 			(effects
 				(font
@@ -4955,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 167.64 114.3 0)
 			(effects
 				(font
@@ -5021,7 +5039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 220.98 109.22 0)
 			(effects
 				(font
@@ -5087,7 +5105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 96.52 142.24 0)
 			(effects
 				(font
@@ -5282,7 +5300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 149.86 38.1 0)
 			(effects
 				(font
@@ -5356,7 +5374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 195.58 78.74 0)
 			(effects
 				(font
@@ -5470,7 +5488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 116.84 0)
 			(effects
 				(font
@@ -5535,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -5601,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 215.9 73.66 0)
 			(effects
 				(font
@@ -5667,7 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 167.64 45.72 0)
 			(effects
 				(font
@@ -5732,7 +5750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -5796,7 +5814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -5904,7 +5922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -5970,7 +5988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 177.8 0)
 			(effects
 				(font
@@ -6036,7 +6054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 203.2 78.74 0)
 			(effects
 				(font
@@ -6101,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 66.04 101.6 0)
 			(effects
 				(font

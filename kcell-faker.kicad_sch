@@ -2004,9 +2004,9 @@
 		)
 		(symbol "power:+3V3"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2104,8 +2104,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 		(uuid "bd267b87-f2a2-4531-8ff7-1bc4aa63c320")
 	)
 	(bus_entry
-		(at 55.88 48.26)
+		(at 50.8 48.26)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2361,7 +2361,7 @@
 		(uuid "0a1d3db3-8e7b-4121-9271-36dc9aff1f9b")
 	)
 	(bus_entry
-		(at 55.88 60.96)
+		(at 50.8 60.96)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2370,7 +2370,7 @@
 		(uuid "291ed1d9-304d-4d17-af1a-1dff6e520193")
 	)
 	(bus_entry
-		(at 55.88 58.42)
+		(at 50.8 58.42)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2379,7 +2379,25 @@
 		(uuid "54bb1566-4cfd-4a67-ab4f-744c4e815357")
 	)
 	(bus_entry
-		(at 55.88 53.34)
+		(at 50.8 73.66)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5e9fae-2ead-4945-996e-d88e9d65e81a")
+	)
+	(bus_entry
+		(at 50.8 68.58)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a641641-93e7-4ef2-b48d-c2c00f55ed6f")
+	)
+	(bus_entry
+		(at 50.8 53.34)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2388,7 +2406,7 @@
 		(uuid "9033f378-a048-4ca7-b5c3-82d387314a5b")
 	)
 	(bus_entry
-		(at 55.88 63.5)
+		(at 50.8 63.5)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2397,7 +2415,16 @@
 		(uuid "b387e562-4e41-4889-8b83-abe4cbf5338e")
 	)
 	(bus_entry
-		(at 55.88 50.8)
+		(at 50.8 71.12)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de870ce2-4f16-4cc5-bba2-6f7962144632")
+	)
+	(bus_entry
+		(at 50.8 50.8)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2445,6 +2472,16 @@
 		)
 		(uuid "0b175b1d-20b7-42c6-81fe-56de0908a074")
 	)
+	(bus
+		(pts
+			(xy 43.18 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8d4a9d-8b50-4afd-b92e-6754e6bf37ed")
+	)
 	(wire
 		(pts
 			(xy 121.92 35.56) (xy 124.46 35.56)
@@ -2477,13 +2514,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 101.6 78.74)
+			(xy 53.34 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e62f480-65f0-49a8-b9a6-4e7c4c0310f9")
+		(uuid "1fd76366-e840-4b4b-943c-dfa5c17a0622")
 	)
 	(wire
 		(pts
@@ -2504,6 +2541,26 @@
 			(type default)
 		)
 		(uuid "245989ed-77a9-42db-b072-a4dc3551348c")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 71.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28613b7f-440c-4b6f-b441-129e575f7f5b")
+	)
+	(wire
+		(pts
+			(xy 53.34 71.12) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293610bb-60e8-4cf0-a67a-ce894a4ac2d6")
 	)
 	(wire
 		(pts
@@ -2557,7 +2614,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 86.36) (xy 43.18 86.36)
+			(xy 48.26 86.36) (xy 43.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2637,23 +2694,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 60.96) (xy 71.12 60.96)
+			(xy 50.8 60.96) (xy 71.12 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "505bfc81-655c-476b-b7f0-5b3dc8d5fe1a")
-	)
-	(wire
-		(pts
-			(xy 66.04 68.58) (xy 71.12 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51277c51-c15a-494d-86e9-9c4188e5ffcb")
 	)
 	(wire
 		(pts
@@ -2707,17 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac93ad7-b58f-451a-9e1c-dad508af20e4")
-	)
-	(wire
-		(pts
-			(xy 55.88 53.34) (xy 71.12 53.34)
+			(xy 50.8 53.34) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2757,16 +2794,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 55.88) (xy 71.12 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "665884a8-5e56-41b3-978c-4df5ef4d931e")
-	)
-	(wire
-		(pts
 			(xy 223.52 45.72) (xy 228.6 45.72)
 		)
 		(stroke
@@ -2774,6 +2801,16 @@
 			(type default)
 		)
 		(uuid "68f5ad73-5fa2-4289-a6d8-f28e6f163ccc")
+	)
+	(bus
+		(pts
+			(xy 50.8 71.12) (xy 50.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d316924-5f15-4e52-b9a4-c5b40fe5ded8")
 	)
 	(wire
 		(pts
@@ -2817,7 +2854,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 63.5) (xy 53.34 66.04)
+			(xy 48.26 63.5) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 71.12 50.8)
+			(xy 50.8 50.8) (xy 71.12 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2904,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "85518671-0475-4093-a058-c6d2458a41aa")
+	)
+	(bus
+		(pts
+			(xy 50.8 73.66) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b5904a-f9a3-413c-bab5-bcfb627c08f1")
 	)
 	(wire
 		(pts
@@ -3067,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 58.42) (xy 71.12 58.42)
+			(xy 50.8 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 63.5) (xy 71.12 63.5)
+			(xy 50.8 63.5) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3147,13 +3194,23 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 50.8) (xy 53.34 53.34)
+			(xy 48.26 50.8) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4e70eae-11e8-455b-b3b5-d8f80e0ff7a8")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56c4351-32ba-4c9e-b311-4529043b7461")
 	)
 	(wire
 		(pts
@@ -3167,7 +3224,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 66.04) (xy 53.34 86.36)
+			(xy 48.26 66.04) (xy 48.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3314,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 55.88) (xy 53.34 60.96)
+			(xy 48.26 55.88) (xy 48.26 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3324,7 @@
 	)
 	(bus
 		(pts
-			(xy 53.34 60.96) (xy 53.34 63.5)
+			(xy 48.26 60.96) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3345,6 +3402,16 @@
 		)
 		(uuid "e79c18a5-121d-4a21-9bdc-82b9606e1d09")
 	)
+	(bus
+		(pts
+			(xy 50.8 68.58) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e966d926-903a-49db-ae7f-827a49130dc1")
+	)
 	(wire
 		(pts
 			(xy 104.14 177.8) (xy 107.95 177.8)
@@ -3387,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 48.26) (xy 71.12 48.26)
+			(xy 50.8 48.26) (xy 71.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3395,19 +3462,9 @@
 		)
 		(uuid "f4dca26d-cea2-4718-9375-66162170589c")
 	)
-	(wire
-		(pts
-			(xy 66.04 66.04) (xy 71.12 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5ba46b-bc41-492e-b5cd-7ac8bd050b60")
-	)
 	(bus
 		(pts
-			(xy 53.34 53.34) (xy 53.34 55.88)
+			(xy 48.26 53.34) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3546,7 +3603,7 @@
 		(uuid "2396ea47-2714-4866-84b8-99c66230ba63")
 	)
 	(label "BTN_RANGE"
-		(at 66.04 76.2 180)
+		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3645,7 +3702,7 @@
 		(uuid "6cb4c788-9898-4c15-8bb8-6f70b45a128d")
 	)
 	(label "LED1"
-		(at 66.04 78.74 180)
+		(at 66.04 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3666,6 +3723,17 @@
 		)
 		(uuid "841e9b47-bfb4-44ca-82da-621bae17b18d")
 	)
+	(label "OCOUT3"
+		(at 66.04 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a0a0705-7245-44a6-bcf4-52ebacde1bba")
+	)
 	(label "RX0"
 		(at 113.03 33.02 0)
 		(fields_autoplaced yes)
@@ -3678,7 +3746,7 @@
 		(uuid "90b034d3-7c6c-4ecf-8734-0b224885882e")
 	)
 	(label "LED2"
-		(at 66.04 66.04 180)
+		(at 66.04 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3710,6 +3778,17 @@
 		)
 		(uuid "b0f200f0-b9cf-4d7b-9df1-e1a8a2691beb")
 	)
+	(label "OCOUT1"
+		(at 66.04 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3339a55-77b5-4ba7-89ae-0314fdfe5d47")
+	)
 	(label "BTN_RANGE"
 		(at 133.35 177.8 0)
 		(fields_autoplaced yes)
@@ -3720,6 +3799,17 @@
 			(justify left bottom)
 		)
 		(uuid "b6915edb-a9f8-4456-a3a2-8d4aa01e21cd")
+	)
+	(label "OCOUT2"
+		(at 66.04 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc33abed-5821-4d27-9a8e-47ca18b1f8ac")
 	)
 	(label "PWM6"
 		(at 58.42 63.5 0)
@@ -4052,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -4119,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 104.14 182.88 0)
 			(effects
 				(font
@@ -4233,7 +4323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 187.96 0)
 			(effects
 				(font
@@ -4299,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 48.26 165.1 0)
 			(effects
 				(font
@@ -4365,7 +4455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 86.36 22.86 0)
 			(effects
 				(font
@@ -4707,7 +4797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 99.06 177.8 0)
 			(effects
 				(font
@@ -4822,7 +4912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 81.28 182.88 0)
 			(effects
 				(font
@@ -4936,7 +5026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 43.18 0)
 			(effects
 				(font
@@ -5001,7 +5091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 177.8 66.04 0)
 			(effects
 				(font
@@ -5213,7 +5303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 48.26 179.07 0)
 			(effects
 				(font
@@ -5318,7 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 121.92 35.56 0)
 			(effects
 				(font
@@ -5385,7 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 182.88 0)
 			(effects
 				(font
@@ -5499,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 144.78 25.4 0)
 			(effects
 				(font
@@ -5564,7 +5654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 71.12 187.96 0)
 			(effects
 				(font
@@ -5631,7 +5721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 195.58 60.96 0)
 			(effects
 				(font
@@ -5746,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 182.88 71.12 0)
 			(effects
 				(font
@@ -5861,7 +5951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -5974,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -6088,7 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -6116,6 +6206,15 @@
 			)
 		)
 		(property "LCSC Part#" "C15850"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -6183,7 +6282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 76.2 177.8 0)
 			(effects
 				(font
@@ -6395,7 +6494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 35.56 179.07 0)
 			(effects
 				(font
@@ -6582,7 +6681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 35.56 165.1 0)
 			(effects
 				(font
@@ -6648,7 +6747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 93.98 187.96 0)
 			(effects
 				(font
@@ -6715,7 +6814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -6829,7 +6928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 88.9 0)
 			(effects
 				(font
@@ -6895,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 195.58 57.15 0)
 			(effects
 				(font
@@ -6961,7 +7060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172.72 76.2 0)
 			(effects
 				(font
@@ -7026,7 +7125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 154.94 66.04 0)
 			(effects
 				(font
@@ -7139,7 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 124.46 177.8 0)
 			(effects
 				(font
@@ -7253,7 +7352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 38.1 0)
 			(effects
 				(font
@@ -7320,7 +7419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 144.78 30.48 0)
 			(effects
 				(font
@@ -7554,6 +7653,16 @@
 				(justify right)
 			)
 			(uuid "34ba0fa3-9d66-4f4a-a111-ff2a513dae79")
+		)
+		(pin "OCOUT[1..3]" input
+			(at 43.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf3482ed-04a7-439c-866b-77ab06cc5646")
 		)
 		(instances
 			(project "kcell-faker"

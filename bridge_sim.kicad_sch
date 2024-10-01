@@ -4366,6 +4366,15 @@
 				(hide yes)
 			)
 		)
+		(property "jlcbasic" "basic"
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16e05c4b-6994-4c1d-9365-3f8398397a8a")
 		)
@@ -4542,7 +4551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -4645,7 +4654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 93.98 111.76 0)
 			(effects
 				(font
@@ -5034,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 137.16 86.36 0)
 			(effects
 				(font
@@ -6489,7 +6498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 55.88 109.22 0)
 			(effects
 				(font
