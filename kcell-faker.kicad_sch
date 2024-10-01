@@ -178,141 +178,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2002,6 +1867,785 @@
 				)
 			)
 		)
+		(symbol "karl-atomic-basic:KC0603_100nF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V, X7R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0603KRX7R9BB104"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C14663"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0603_100nF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0603_100nF_1_1"
+				(text "0603"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "karl-atomic-basic:KC0603_1uF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1uF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V, X5R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A105KB8NNNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C15849"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0603_1uF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0603_1uF_1_1"
+				(text "0603"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "karl-atomic-basic:KC0805_10uF_25V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+				(at -0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "25V, X5R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL21A106KAYNNNE"
+				(at -0.254 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C15850"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KC0805_10uF_25V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KC0805_10uF_25V_1_1"
+				(text "0805"
+					(at -1.524 1.27 0)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "karl-atomic-basic:KR0603_10k"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF1002T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C25804"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KR0603_10k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0603_10k_1_1"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "karl-atomic-basic:KR0603_330R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "330"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF3300T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C23138"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KR0603_330R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0603_330R_1_1"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2226,16 +2870,22 @@
 		(uuid "02a79130-1b0e-4cb3-b0b0-7d7224ea87cd")
 	)
 	(junction
+		(at 154.94 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af1d2a6-9480-4b5c-9b05-8ebd4b35ef87")
+	)
+	(junction
+		(at 163.83 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2551672e-27e1-4940-8e36-8fe186fc1223")
+	)
+	(junction
 		(at 104.14 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279aa883-7b74-4355-a9bc-280ebcfe8125")
-	)
-	(junction
-		(at 152.4 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ae8b6a9-4149-4164-95f7-e0f29f7af518")
 	)
 	(junction
 		(at 71.12 187.96)
@@ -2262,18 +2912,6 @@
 		(uuid "4cad67d0-bd85-404c-bb5b-8e09b2389bb9")
 	)
 	(junction
-		(at 167.64 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53047d72-f12f-4f9d-b43b-178823a19f59")
-	)
-	(junction
-		(at 167.64 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c46de18-fe16-46f2-9260-7123a77ec9f0")
-	)
-	(junction
 		(at 149.86 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2292,34 +2930,10 @@
 		(uuid "9ea5e804-8dca-4490-8c58-1b794b469856")
 	)
 	(junction
-		(at 175.26 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7383378-d10e-479e-9b8e-9e78f23c1a15")
-	)
-	(junction
-		(at 160.02 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bec0b725-1c8e-4585-b5e3-059d5222d2d6")
-	)
-	(junction
-		(at 152.4 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cea5fb25-e9a8-4114-9d6c-9896a607731b")
-	)
-	(junction
 		(at 182.88 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2f1d31a-ac6a-46e5-93f7-c807dd0717f7")
-	)
-	(junction
-		(at 160.02 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4927357-479d-4535-b2f3-40bca21252d0")
 	)
 	(junction
 		(at 119.38 187.96)
@@ -2332,6 +2946,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec005dcf-937d-4c18-8d56-49de085c157a")
+	)
+	(junction
+		(at 154.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8ecfcf-45e9-45ce-93ac-de21d007396c")
 	)
 	(junction
 		(at 182.88 76.2)
@@ -2361,13 +2981,31 @@
 		(uuid "0a1d3db3-8e7b-4121-9271-36dc9aff1f9b")
 	)
 	(bus_entry
-		(at 50.8 60.96)
+		(at 50.8 55.88)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26adda13-88ae-4664-9803-9329e1e08cdd")
+	)
+	(bus_entry
+		(at 53.34 60.96)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "291ed1d9-304d-4d17-af1a-1dff6e520193")
+	)
+	(bus_entry
+		(at 50.8 66.04)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd24b08-6a0e-49f6-a917-74fa8b3bee74")
 	)
 	(bus_entry
 		(at 50.8 58.42)
@@ -2404,15 +3042,6 @@
 			(type default)
 		)
 		(uuid "9033f378-a048-4ca7-b5c3-82d387314a5b")
-	)
-	(bus_entry
-		(at 50.8 63.5)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b387e562-4e41-4889-8b83-abe4cbf5338e")
 	)
 	(bus_entry
 		(at 50.8 71.12)
@@ -2464,23 +3093,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 25.4) (xy 152.4 25.4)
+			(xy 144.78 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b175b1d-20b7-42c6-81fe-56de0908a074")
-	)
-	(bus
-		(pts
-			(xy 43.18 91.44) (xy 50.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8d4a9d-8b50-4afd-b92e-6754e6bf37ed")
 	)
 	(wire
 		(pts
@@ -2492,6 +3111,16 @@
 		)
 		(uuid "0da0e329-090c-4523-900e-bdb0319dfa4c")
 	)
+	(bus
+		(pts
+			(xy 50.8 63.5) (xy 50.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10db25bc-c588-4a35-bf9b-6d6ad6cb2a45")
+	)
 	(wire
 		(pts
 			(xy 195.58 76.2) (xy 182.88 76.2)
@@ -2501,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "13e7a9c4-a0f6-4064-9daa-54fbca983a9b")
+	)
+	(bus
+		(pts
+			(xy 48.26 58.42) (xy 48.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1912bd66-46b7-4f0c-984b-df55df1192d7")
 	)
 	(wire
 		(pts
@@ -2514,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aebb6df-d93e-4176-9236-b671d6197e15")
+	)
+	(wire
+		(pts
 			(xy 53.34 68.58) (xy 71.12 68.58)
 		)
 		(stroke
@@ -2521,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "1fd76366-e840-4b4b-943c-dfa5c17a0622")
-	)
-	(wire
-		(pts
-			(xy 167.64 27.94) (xy 167.64 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23d2d37d-0312-49a7-bcd2-326bc8e98eb1")
 	)
 	(wire
 		(pts
@@ -2584,16 +3223,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 33.02) (xy 167.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae81366-4ac2-4e87-8bfe-d3c4c028e7f1")
-	)
-	(wire
-		(pts
 			(xy 106.68 55.88) (xy 101.6 55.88)
 		)
 		(stroke
@@ -2611,16 +3240,6 @@
 			(type default)
 		)
 		(uuid "3e2984a0-c4d3-4315-a0cb-349f117b6a9c")
-	)
-	(bus
-		(pts
-			(xy 48.26 86.36) (xy 43.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411e61a8-88ef-4f1f-8a8b-6f06b6057d3f")
 	)
 	(wire
 		(pts
@@ -2644,7 +3263,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 27.94) (xy 152.4 25.4)
+			(xy 154.94 27.94) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2694,16 +3313,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "505bfc81-655c-476b-b7f0-5b3dc8d5fe1a")
-	)
-	(wire
-		(pts
 			(xy 101.6 50.8) (xy 106.68 50.8)
 		)
 		(stroke
@@ -2724,16 +3333,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 25.4) (xy 167.64 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a6ad14-0346-404c-aa52-ce43dce4b75b")
-	)
-	(wire
-		(pts
 			(xy 35.56 172.72) (xy 35.56 176.53)
 		)
 		(stroke
@@ -2751,6 +3350,16 @@
 			(type default)
 		)
 		(uuid "5a61e09f-c649-4ffb-8004-13d61dbf0329")
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7a384f-98b7-4662-8fe0-5f6d0487da50")
 	)
 	(wire
 		(pts
@@ -2794,6 +3403,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673c32f1-0d8f-4298-b4e9-de19e295666e")
+	)
+	(wire
+		(pts
 			(xy 223.52 45.72) (xy 228.6 45.72)
 		)
 		(stroke
@@ -2811,6 +3430,16 @@
 			(type default)
 		)
 		(uuid "6d316924-5f15-4e52-b9a4-c5b40fe5ded8")
+	)
+	(bus
+		(pts
+			(xy 50.8 66.04) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e79c090-608a-4d1f-82c4-64661f35ad39")
 	)
 	(wire
 		(pts
@@ -2844,26 +3473,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 27.94) (xy 175.26 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78a89ca6-6310-4985-8b9d-403d654822ad")
-	)
-	(bus
-		(pts
-			(xy 48.26 63.5) (xy 48.26 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794afd89-7028-4365-854e-ed92b3c5889c")
-	)
-	(wire
-		(pts
 			(xy 86.36 22.86) (xy 86.36 25.4)
 		)
 		(stroke
@@ -2894,6 +3503,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 35.56) (xy 163.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e861117-6067-43d7-a803-d32accbee953")
+	)
+	(wire
+		(pts
 			(xy 71.12 177.8) (xy 71.12 187.96)
 		)
 		(stroke
@@ -2914,13 +3533,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 33.02) (xy 160.02 35.56)
+			(xy 163.83 33.02) (xy 163.83 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "82b43de6-6a4c-4750-93f1-62469f4c08d1")
+	)
+	(wire
+		(pts
+			(xy 154.94 25.4) (xy 163.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bb0113-7c1e-425a-a259-7ae7c0490fd7")
 	)
 	(wire
 		(pts
@@ -2964,17 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 35.56) (xy 175.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a949f00-3358-4d54-b19a-3496893dbb74")
-	)
-	(wire
-		(pts
-			(xy 144.78 35.56) (xy 152.4 35.56)
+			(xy 144.78 35.56) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2994,6 +3613,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5772fd-e2d9-4f20-a622-3d745ec200a5")
+	)
+	(wire
+		(pts
 			(xy 58.42 43.18) (xy 71.12 43.18)
 		)
 		(stroke
@@ -3004,7 +3633,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 33.02) (xy 152.4 35.56)
+			(xy 154.94 33.02) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3062,6 +3691,16 @@
 		)
 		(uuid "8fdce113-f50d-41db-8a7a-96aae09c907a")
 	)
+	(bus
+		(pts
+			(xy 43.18 83.82) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92debc4a-9d5a-45d2-ab73-c27d7256656f")
+	)
 	(wire
 		(pts
 			(xy 101.6 33.02) (xy 124.46 33.02)
@@ -3071,16 +3710,6 @@
 			(type default)
 		)
 		(uuid "93052951-cc9f-4b56-8ffd-7568050b0126")
-	)
-	(wire
-		(pts
-			(xy 175.26 33.02) (xy 175.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9338abad-1bb8-4d06-88e2-bc07061d04c6")
 	)
 	(wire
 		(pts
@@ -3154,16 +3783,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71d407a-f240-4851-b3eb-bb28a0c6aa12")
-	)
-	(wire
-		(pts
 			(xy 129.54 177.8) (xy 129.54 180.34)
 		)
 		(stroke
@@ -3181,16 +3800,6 @@
 			(type default)
 		)
 		(uuid "ae8d8101-58b7-46c7-9385-573ed3ea91e0")
-	)
-	(wire
-		(pts
-			(xy 167.64 25.4) (xy 175.26 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0765da1-9221-4d0a-99de-5d6ce40a219c")
 	)
 	(bus
 		(pts
@@ -3222,16 +3831,6 @@
 		)
 		(uuid "b735fbe2-2734-4970-8b47-52538e40a017")
 	)
-	(bus
-		(pts
-			(xy 48.26 66.04) (xy 48.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e48dc7-aa22-4f45-b11b-50456e472121")
-	)
 	(wire
 		(pts
 			(xy 104.14 187.96) (xy 104.14 185.42)
@@ -3251,16 +3850,6 @@
 			(type default)
 		)
 		(uuid "bdb7e4a6-5c97-4f8e-920d-bb557fcae05a")
-	)
-	(wire
-		(pts
-			(xy 152.4 35.56) (xy 160.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf306e46-e675-4dda-a469-48ae155adf34")
 	)
 	(wire
 		(pts
@@ -3314,7 +3903,7 @@
 	)
 	(bus
 		(pts
-			(xy 48.26 55.88) (xy 48.26 60.96)
+			(xy 48.26 55.88) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3324,33 +3913,13 @@
 	)
 	(bus
 		(pts
-			(xy 48.26 60.96) (xy 48.26 63.5)
+			(xy 48.26 60.96) (xy 48.26 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7969e16-b2ae-4125-97c1-bf2521ed5cbe")
-	)
-	(wire
-		(pts
-			(xy 152.4 25.4) (xy 160.02 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b1850b-750c-4fa8-ae88-aa08dbc96fda")
-	)
-	(wire
-		(pts
-			(xy 160.02 35.56) (xy 167.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97c7992-deff-4483-8845-0e1e49d86479")
 	)
 	(wire
 		(pts
@@ -3434,6 +4003,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 35.56) (xy 175.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05adb0d-9c05-4022-a79f-492d33c91ae2")
+	)
+	(wire
+		(pts
 			(xy 66.04 81.28) (xy 71.12 81.28)
 		)
 		(stroke
@@ -3464,6 +4043,16 @@
 	)
 	(bus
 		(pts
+			(xy 43.18 91.44) (xy 50.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc50ceba-1711-469e-a45b-c7d41f6a4e49")
+	)
+	(bus
+		(pts
 			(xy 48.26 53.34) (xy 48.26 55.88)
 		)
 		(stroke
@@ -3474,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 27.94) (xy 160.02 25.4)
+			(xy 163.83 27.94) (xy 163.83 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +4148,7 @@
 		(uuid "bb4ffcd1-391e-4f9d-bfb3-604f98a9d56c")
 	)
 	(label "PWM4"
-		(at 58.42 58.42 0)
+		(at 60.96 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3581,7 +4170,7 @@
 		(uuid "03bee0d4-50ff-408a-8347-65aa0c4fa5a5")
 	)
 	(label "PWM1"
-		(at 58.42 48.26 0)
+		(at 60.96 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3592,7 +4181,7 @@
 		(uuid "13bc20b0-44a4-4fc4-864d-4530c82ffd42")
 	)
 	(label "PWM3"
-		(at 58.42 53.34 0)
+		(at 60.96 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,8 +4312,19 @@
 		)
 		(uuid "841e9b47-bfb4-44ca-82da-621bae17b18d")
 	)
+	(label "OCOUT4"
+		(at 63.5 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88cc68eb-6e67-423c-ada3-9c214305488c")
+	)
 	(label "OCOUT3"
-		(at 66.04 66.04 180)
+		(at 63.5 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3757,7 +4357,7 @@
 		(uuid "9e97a19d-864a-4f4f-a1b1-349f79f648c4")
 	)
 	(label "PWM5"
-		(at 58.42 60.96 0)
+		(at 60.96 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3768,7 +4368,7 @@
 		(uuid "a33038fa-a75a-4285-9d08-74ed4849b5c1")
 	)
 	(label "PWM_BRIDGE"
-		(at 106.68 50.8 0)
+		(at 106.68 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3779,7 +4379,7 @@
 		(uuid "b0f200f0-b9cf-4d7b-9df1-e1a8a2691beb")
 	)
 	(label "OCOUT1"
-		(at 66.04 71.12 180)
+		(at 63.5 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3801,7 +4401,7 @@
 		(uuid "b6915edb-a9f8-4456-a3a2-8d4aa01e21cd")
 	)
 	(label "OCOUT2"
-		(at 66.04 68.58 180)
+		(at 63.5 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3810,17 +4410,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc33abed-5821-4d27-9a8e-47ca18b1f8ac")
-	)
-	(label "PWM6"
-		(at 58.42 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb52c545-9ea4-4d9a-8108-50e636d02845")
 	)
 	(label "SPI2_CLK"
 		(at 223.52 45.72 180)
@@ -3878,7 +4467,7 @@
 		(uuid "d98e08c7-1ac7-42d9-b928-9d9dd8896695")
 	)
 	(label "PWM2"
-		(at 58.42 50.8 0)
+		(at 60.96 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4164,121 +4753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 104.14 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "037d1330-f62b-4179-ab7a-214c388c6532")
-		(property "Reference" "C11"
-			(at 106.68 181.6035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 106.68 184.1435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C14663"
-			(at 104.14 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "011ef899-66e8-448c-b49a-2954e373f03a")
-		)
-		(pin "2"
-			(uuid "69d6cd4d-efd7-4a22-a71e-15318d59c330")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 187.96 0)
 		(unit 1)
@@ -4339,6 +4813,270 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 129.54 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16e691f6-a6e4-42d3-b19b-1d195cc115fe")
+		(property "Reference" "C11"
+			(at 132.08 181.1071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.08 183.6471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.032 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X7R"
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 129.286 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8213ea5-d0d8-44eb-805e-243149709dd5")
+		)
+		(pin "1"
+			(uuid "3458669c-022b-4c3d-af05-ba99cb71737e")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KR0603_330R")
+		(at 35.56 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21bdd8f6-3489-484d-8215-2ffbebee0519")
+		(property "Reference" "R12"
+			(at 38.1 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 38.1 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF3300T5E"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C23138"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73bbb3f9-cb8b-463a-bca6-dd7e91651d64")
+		)
+		(pin "2"
+			(uuid "41663cc5-51ed-418e-81db-a32392decd5a")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 160.02 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a352ca-da59-4d7b-8e2f-ac957a5d7169")
+		(property "Reference" "C7"
+			(at 162.56 69.3471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.56 71.8871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.512 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X7R"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 159.766 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7e7de42-7e56-45c1-92b8-3cf35ffa801c")
+		)
+		(pin "1"
+			(uuid "2efd2012-d7e0-4cc7-a4ba-8d8000480576")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4471,6 +5209,94 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 81.28 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38321ddd-e461-40c0-be20-78830657ffae")
+		(property "Reference" "C6"
+			(at 83.82 181.1071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 83.82 183.6471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 80.772 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X7R"
+			(at 81.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 81.026 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C14663"
+			(at 81.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d7e612a-5b1b-48d0-9499-378b62bf5efc")
+		)
+		(pin "1"
+			(uuid "f8a41fb6-876c-4895-a601-074f406b698c")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4754,6 +5580,94 @@
 		)
 	)
 	(symbol
+		(lib_id "karl-atomic-basic:KC0603_1uF")
+		(at 195.58 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ef8663b-98e0-4f1e-aa6e-0c126180ea0f")
+		(property "Reference" "C9"
+			(at 198.12 69.3471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 198.12 71.8871 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.072 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, X5R"
+			(at 195.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C15849"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7052f726-b690-4472-9695-69a4264e7e35")
+		)
+		(pin "1"
+			(uuid "47ad4a3e-c0a1-4dd6-aa20-21709c07a69a")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 99.06 177.8 0)
 		(unit 1)
@@ -4867,35 +5781,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 182.88 180)
+		(lib_id "karl-atomic-basic:KR0603_10k")
+		(at 55.88 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57116532-cc30-4812-9cec-d271c7c4f9a4")
-		(property "Reference" "C10"
-			(at 83.82 181.6035 0)
+		(uuid "4e2cb5ce-b369-480d-a5a8-0fec22129786")
+		(property "Reference" "R22"
+			(at 55.88 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 83.82 184.1435 0)
+		(property "Value" "10k"
+			(at 55.88 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.28 182.88 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +5816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 182.88 0)
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,8 +5824,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 182.88 0)
+		(property "Description" "Resistor, 0603"
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,8 +5833,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 81.28 182.88 0)
+		(property "MPN" "0603WAF1002T5E"
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,52 +5842,25 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
-			(at 81.28 182.88 0)
+		(property "LCSC Part#" "C25804"
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "lcsc2#" ""
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C14663"
-			(at 81.28 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "255f27b1-fce5-49a8-9058-56f328980356")
 		)
 		(pin "2"
-			(uuid "18e3cf95-70fe-4e11-9e44-4c03122eedce")
+			(uuid "fa5cb5a2-392a-4126-a814-7a3f8b0dffef")
+		)
+		(pin "1"
+			(uuid "d784a53c-39a7-4432-90d5-476323af93d5")
 		)
 		(instances
-			(project "kcell-faker"
+			(project ""
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C10")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5042,6 +5927,94 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KC0805_10uF_25V")
+		(at 163.83 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dacc239-4041-4c2e-b8a0-19f69c907e01")
+		(property "Reference" "C1"
+			(at 166.37 28.7071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 166.37 31.2471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 163.322 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, X5R"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 163.576 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C15850"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e1637d9-10ae-490b-bcb5-ce5c10f1f38f")
+		)
+		(pin "1"
+			(uuid "465d6080-da11-4405-b945-25d0441f3eb6")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5258,35 +6231,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 48.26 179.07 180)
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 104.14 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70ca0d93-a4ce-496c-a93e-888e214536f0")
-		(property "Reference" "R13"
-			(at 50.8 177.7999 0)
+		(uuid "6ebdcdb7-9597-474a-a87e-e4d664d82e2a")
+		(property "Reference" "C10"
+			(at 106.68 181.1071 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 50.8 180.3399 0)
+		(property "Value" "100nF"
+			(at 106.68 183.6471 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 179.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 103.632 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 179.07 0)
+			(at 104.14 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,8 +6276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 48.26 179.07 0)
+		(property "Description" "50V, X7R"
+			(at 104.14 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,8 +6285,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0603WAF3300T5E"
-			(at 48.26 179.07 0)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 103.886 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,43 +6294,25 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
-			(at 48.26 179.07 0)
+		(property "LCSC Part#" "C14663"
+			(at 104.14 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "jlcbasic" "basic"
-			(at 48.26 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C23138"
-			(at 48.26 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03e9d028-a620-4fdf-a832-3b599a6e4a21")
 		)
 		(pin "2"
-			(uuid "2be76b3a-81bc-4538-bd90-44e232ae7a52")
+			(uuid "fb8bc065-ffc7-4ca9-b0c3-467a0063052a")
+		)
+		(pin "1"
+			(uuid "169364b7-a5df-4e48-bc8c-e1574b18805f")
 		)
 		(instances
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "R13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5424,121 +6379,6 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 129.54 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "735607fe-27a6-4376-8b5c-62f155dbf2fb")
-		(property "Reference" "C6"
-			(at 132.08 181.6035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 132.08 184.1435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C14663"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3046754e-2107-4add-9963-2df1f49154c5")
-		)
-		(pin "2"
-			(uuid "b2ca7f76-8f2c-4738-aced-9e115c43163e")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5791,35 +6631,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 71.12 180)
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 144.78 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88297b2f-a8da-48be-b721-ffeb6508c7f8")
-		(property "Reference" "C8"
-			(at 185.42 69.8435 0)
+		(uuid "9a51a6a3-0b20-42c1-b756-5af4a7ccdaa1")
+		(property "Reference" "C14"
+			(at 147.32 28.7071 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 185.42 72.3835 0)
+			(at 147.32 31.2471 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 182.88 71.12 0)
+			(at 144.272 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +6668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 71.12 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,8 +6676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 71.12 0)
+		(property "Description" "50V, X7R"
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,35 +6685,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 182.88 71.12 0)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 144.526 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,357 +6695,24 @@
 			)
 		)
 		(property "LCSC Part#" "C14663"
-			(at 182.88 71.12 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "4fb6803a-f31e-40e4-9653-33acaf74edb5")
 		)
 		(pin "2"
-			(uuid "39b657e5-ef28-40ba-aded-74b9d904d65c")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 195.58 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89d75cc5-64dc-4f39-8d0e-11ab98416d23")
-		(property "Reference" "C9"
-			(at 198.12 69.8562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 198.12 72.3962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A105KB8NNNC"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C15849"
-			(at 195.58 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "1ad98e42-45b7-4a87-8ddd-74c36bef5ea4")
 		)
 		(pin "1"
-			(uuid "ddb8b67e-f377-4707-95ec-975ac53476c8")
-		)
-		(pin "2"
-			(uuid "ac6a519c-ea9f-4d5e-9171-33d14517106a")
+			(uuid "72ad2303-468c-4fa5-98cf-eed0ff723b1a")
 		)
 		(instances
-			(project "kcell-faker"
+			(project ""
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 55.88 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e96234b-4af8-484c-8986-18b0bbd2443b")
-		(property "Reference" "R10"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 55.88 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C25804"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03d37a0f-8f40-490b-bfee-d75edabfda66")
-		)
-		(pin "2"
-			(uuid "c22c4d01-cbbb-4b24-bf24-92de4e30bc4f")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bffd9b6-2a35-4af0-915c-d4ba8c494893")
-		(property "Reference" "C1"
-			(at 154.7368 29.337 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 154.7114 31.623 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL21A106KAYNNNE"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C15850"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 152.4 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf23f4f3-47a4-46cb-9b23-cc7f40a4d21a")
-		)
-		(pin "2"
-			(uuid "0a7cad5a-2f38-405f-b9f6-a37e80baf5c7")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6443,112 +6923,6 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 35.56 179.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b59aca0b-04e2-4f02-9058-2604e0211fc4")
-		(property "Reference" "R12"
-			(at 38.1 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330"
-			(at 38.1 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "0603WAF3300T5E"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C23138"
-			(at 35.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f861bc9e-c797-4ed5-af89-ad54bd9a9e74")
-		)
-		(pin "2"
-			(uuid "79cf0c39-789a-40ac-be1d-2140eb2882ed")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6769,35 +7143,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 71.12 180)
+		(lib_id "karl-atomic-basic:KC0603_100nF")
+		(at 182.88 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d07148c9-048f-4561-88af-b2147f599b4a")
-		(property "Reference" "C7"
-			(at 162.56 69.8435 0)
+		(uuid "c368e2d0-b5ea-4f80-b5d6-ca900332f263")
+		(property "Reference" "C8"
+			(at 185.42 69.3471 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.56 72.3835 0)
+			(at 185.42 71.8871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 71.12 0)
+			(at 182.372 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 71.12 0)
+			(at 182.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,8 +7188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 71.12 0)
+		(property "Description" "50V, X7R"
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,35 +7197,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 160.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 160.02 71.12 0)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 182.626 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7207,183 @@
 			)
 		)
 		(property "LCSC Part#" "C14663"
-			(at 160.02 71.12 0)
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32f9581a-1fd7-403e-ac4b-4f834d4b0bca")
+		)
+		(pin "1"
+			(uuid "a58e59bd-6dbc-42e5-875d-bb9917516c9a")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KC0805_10uF_25V")
+		(at 154.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbadd7a0-ccde-4a13-8e81-fc314b9501c1")
+		(property "Reference" "C3"
+			(at 157.48 28.7071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 157.48 31.2471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 154.432 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V, X5R"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 154.686 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C15850"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c513b6db-3859-4834-ad90-146d86ce45af")
+		)
+		(pin "1"
+			(uuid "d8ad595d-6364-4f88-9623-221c87664e8b")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KR0603_330R")
+		(at 48.26 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d617e5f1-44f9-4dee-8ab3-07d81dad9b2f")
+		(property "Reference" "R13"
+			(at 50.8 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 50.8 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF3300T5E"
+			(at 48.26 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C23138"
+			(at 48.26 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,15 +7392,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8522985-8c91-4eb5-98a4-60aef994be03")
+			(uuid "f8e968a1-5d90-4239-8f9d-346488564991")
 		)
 		(pin "2"
-			(uuid "03730dc1-44f7-4982-a365-2807b525e745")
+			(uuid "4e484814-2818-48fc-aa86-930af4c541fe")
 		)
 		(instances
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7373,121 +7896,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 144.78 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff7eab8b-50c4-4d76-9abf-92a52af26893")
-		(property "Reference" "C3"
-			(at 142.24 29.2035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 142.24 31.7435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0603KRX7R9BB104 "
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "1"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlcbasic" "basic"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C14663"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "333e5766-6d3f-4b4a-a0d8-7d221a3bad37")
-		)
-		(pin "2"
-			(uuid "1584a6ce-014c-489c-8567-65a705f67ddc")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 228.6 30.48)
 		(size 43.18 33.02)
@@ -7644,8 +8052,8 @@
 				(justify left top)
 			)
 		)
-		(pin "PWM[1..6]" input
-			(at 43.18 86.36 0)
+		(pin "PWM[1..5]" input
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,8 +8062,8 @@
 			)
 			(uuid "34ba0fa3-9d66-4f4a-a111-ff2a513dae79")
 		)
-		(pin "OCOUT[1..3]" input
-			(at 43.18 91.44 0)
+		(pin "OCOUT[1..4]" input
+			(at 43.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
