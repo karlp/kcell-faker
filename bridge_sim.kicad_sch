@@ -2286,6 +2286,126 @@
 				)
 			)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+VDC"
 			(power)
 			(pin_numbers hide)
@@ -2632,126 +2752,6 @@
 				)
 			)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 190.5 76.2)
@@ -2862,6 +2862,12 @@
 		(uuid "c356cb56-e9db-448f-a5b8-2078e7b42eb2")
 	)
 	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de04c808-ea1b-48c6-a2a8-7943049202b6")
+	)
+	(junction
 		(at 101.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2879,11 +2885,13 @@
 		(color 0 0 0 0)
 		(uuid "e39648f5-8c6a-4cb3-a338-2334ab335693")
 	)
-	(junction
-		(at 123.19 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc2eaacd-54d1-46cb-a8f2-c8c16f0c09f4")
+	(no_connect
+		(at 81.28 83.82)
+		(uuid "4e1bd18f-d423-4983-bdbd-64e49464fc92")
+	)
+	(no_connect
+		(at 81.28 132.08)
+		(uuid "de5d736e-a32a-4be1-ab69-67b421605fee")
 	)
 	(wire
 		(pts
@@ -2937,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 137.16) (xy 123.19 137.16)
+			(xy 81.28 137.16) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3037,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 152.4 86.36)
+			(xy 149.86 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3057,23 +3065,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 146.05 86.36)
+			(xy 101.6 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2cdae560-f359-49d2-89be-2353361b7773")
-	)
-	(wire
-		(pts
-			(xy 123.19 101.6) (xy 175.26 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3049411d-0344-4049-9b17-5c4f2f33c148")
 	)
 	(wire
 		(pts
@@ -3177,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 137.16) (xy 123.19 101.6)
+			(xy 121.92 137.16) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 101.6) (xy 190.5 105.41)
+			(xy 190.5 101.6) (xy 190.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3337,7 +3335,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 123.19 101.6)
+			(xy 86.36 101.6) (xy 121.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 43.18) (xy 220.98 52.07)
+			(xy 220.98 43.18) (xy 220.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 91.44) (xy 217.17 86.36)
+			(xy 215.9 91.44) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 175.26 86.36)
+			(xy 167.64 86.36) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3497,7 +3495,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 217.17 86.36)
+			(xy 208.28 86.36) (xy 215.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3667,7 +3665,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 101.6 134.62)
+			(xy 101.6 111.76) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 101.6) (xy 208.28 101.6)
+			(xy 215.9 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3695,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 161.29 86.36)
+			(xy 152.4 86.36) (xy 162.56 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 101.6 105.41)
+			(xy 101.6 96.52) (xy 101.6 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 217.17 101.6)
+			(xy 215.9 96.52) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3804,6 +3802,16 @@
 			(type default)
 		)
 		(uuid "fc79925b-4df1-4e52-ae2c-d7a0c44432b6")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc93f669-3887-4eeb-9603-f1b6b9310401")
 	)
 	(wire
 		(pts
@@ -4382,17 +4390,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 71.12 73.66 0)
+		(lib_id "power:+3V3")
+		(at 55.88 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17bbf718-a80d-478f-8015-5f9466a12a27")
-		(property "Reference" "#PWR01"
-			(at 71.12 77.47 0)
+		(uuid "249c5465-939c-40bf-be8b-44fb6d654b20")
+		(property "Reference" "#PWR035"
+			(at 55.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,8 +4408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 71.12 68.58 0)
+		(property "Value" "+3V3"
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +4417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 73.66 0)
+			(at 55.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,7 +4426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 73.66 0)
+			(at 55.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,8 +4434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 71.12 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 55.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,12 +4444,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "be8d2573-32fc-4b47-a9e2-88a725683ece")
+			(uuid "30064b2a-ecbb-453c-9572-e4bc9ae96276")
 		)
 		(instances
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
-					(reference "#PWR01")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4691,7 +4699,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0805_33k")
-		(at 163.83 86.36 90)
+		(at 165.1 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4700,7 +4708,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a0b139a-728f-478b-8fb6-759803a7c2c9")
 		(property "Reference" "R14"
-			(at 163.83 81.28 90)
+			(at 165.1 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4716,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 163.83 83.82 90)
+			(at 165.1 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4724,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4742,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0805"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4751,7 @@
 			)
 		)
 		(property "MPN" "0805W8F3302T5E"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4760,7 @@
 			)
 		)
 		(property "LCSC Part#" "C17633"
-			(at 163.83 86.36 0)
+			(at 165.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +4994,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 190.5 105.41 180)
+		(at 190.5 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +5003,7 @@
 		(fields_autoplaced yes)
 		(uuid "545b0986-be86-4ef4-9b3b-81cb41ee5b94")
 		(property "Reference" "#PWR04"
-			(at 190.5 102.87 0)
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5012,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 190.5 113.03 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5012,7 +5020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 105.41 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 105.41 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 190.5 105.41 0)
+			(at 190.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5148,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0603_0R")
-		(at 148.59 86.36 90)
+		(at 147.32 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5149,7 +5157,7 @@
 		(fields_autoplaced yes)
 		(uuid "5998dacc-2a7f-403e-95de-b512a71b2efe")
 		(property "Reference" "R10"
-			(at 148.59 81.28 90)
+			(at 147.32 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5165,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 148.59 83.82 90)
+			(at 147.32 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5173,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5191,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 148.59 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5200,7 @@
 			)
 		)
 		(property "LCSC Part#" "C21189"
-			(at 148.59 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5209,7 @@
 			)
 		)
 		(property "MPN" "0603WAF0000T5E"
-			(at 148.59 86.36 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,73 +5233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 55.88 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "655679c7-2273-4512-a703-8ee13fdf3d99")
-		(property "Reference" "#PWR043"
-			(at 55.88 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 55.88 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 55.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d0f2bdf-b31d-4df9-a68b-06393b1aac56")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
+		(lib_id "power:+3V3")
 		(at 71.12 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5299,8 +5241,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "678826e6-9592-4da0-a705-2d52ff35430f")
-		(property "Reference" "#PWR042"
+		(uuid "5f978420-1bb0-40ef-83f6-588b34a3f9c8")
+		(property "Reference" "#PWR01"
 			(at 71.12 125.73 0)
 			(effects
 				(font
@@ -5309,7 +5251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "+3V3"
 			(at 71.12 116.84 0)
 			(effects
 				(font
@@ -5335,7 +5277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -5345,12 +5287,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a09f978-60f2-47a0-9ba0-eaeefe1f0aff")
+			(uuid "bcee6fd0-ef07-4b95-ac16-2a4d637b5f3a")
 		)
 		(instances
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
-					(reference "#PWR042")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5358,7 +5300,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0805_150k")
-		(at 101.6 107.95 0)
+		(at 101.6 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5367,7 +5309,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ca05d79-baaf-4c50-9fd6-337cf0a026d2")
 		(property "Reference" "R15"
-			(at 104.14 106.6799 0)
+			(at 104.14 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5318,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 104.14 109.2199 0)
+			(at 104.14 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5327,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 107.95 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 107.95 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5345,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0805"
-			(at 101.6 107.95 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5354,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1503T5E"
-			(at 101.6 107.95 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5363,7 @@
 			)
 		)
 		(property "LCSC Part#" "C17470"
-			(at 101.6 107.95 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,6 +5645,72 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fe1df5-7b82-4f58-b16a-0aa9d7baa473")
+		(property "Reference" "#PWR034"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d79de5b-d66a-4358-80d9-a3e58a9ad2b1")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/21b83927-dbda-4b4d-a489-60a19103f716"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6175,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 220.98 52.07 180)
+		(at 220.98 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6176,7 +6184,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb7fcd97-cdf4-4721-aafa-f78bb1ad489e")
 		(property "Reference" "#PWR06"
-			(at 220.98 49.53 0)
+			(at 220.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6193,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 220.98 59.69 0)
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 52.07 0)
+			(at 220.98 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 52.07 0)
+			(at 220.98 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 220.98 52.07 0)
+			(at 220.98 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6768,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0805_220k")
-		(at 217.17 93.98 0)
+		(at 215.9 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6769,7 +6777,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcc43148-cbc8-4d5d-b6df-2f74d8a889f1")
 		(property "Reference" "R6"
-			(at 219.71 92.7099 0)
+			(at 218.44 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6786,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 219.71 95.2499 0)
+			(at 218.44 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6795,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.17 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +6813,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0805"
-			(at 217.17 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +6822,7 @@
 			)
 		)
 		(property "MPN" "0805W8F2203T5E"
-			(at 217.17 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +6831,7 @@
 			)
 		)
 		(property "LCSC Part#" "C17556"
-			(at 217.17 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
