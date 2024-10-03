@@ -3909,6 +3909,18 @@
 		)
 		(uuid "9b42c1a4-9d8d-4490-b816-a4fceaecde3e")
 	)
+	(text "If you want to play with this,\nremove the fet, remove both bias resistors here,\nand connector emitter directly to R14 (33k into bridge)\nfalstad implies the opto is more than\nsufficient to pwm this by itself.\nEven EL817C here specs ~80kHz cutoff freq, far\nmore than we'll ever be PWMing anyway."
+		(exclude_from_sim no)
+		(at 131.318 26.416 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "bb9d392e-e10d-40bd-a6a3-86e46fd85fca")
+	)
 	(text "Any 100k digipot.\nmore steps more better"
 		(exclude_from_sim no)
 		(at 76.962 68.072 0)
