@@ -13641,7 +13641,7 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53 mm (375 mils)")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil")
 		(property "Reference" "U7"
-			(at 0 -3.6 360)
+			(at 0 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "031c8c34-fa64-438d-94c6-9f45b1b97529")
 			(effects
@@ -13652,7 +13652,7 @@
 			)
 		)
 		(property "Value" "LTV-817S"
-			(at 0 3.6 360)
+			(at 0 3.6 0)
 			(layer "F.Fab")
 			(uuid "84cff80b-b84c-433b-9c6a-268b54b0f8e3")
 			(effects
@@ -13897,7 +13897,7 @@
 			(uuid "4cb21b27-2044-4ec7-a35d-40b792638b56")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "02648ec9-cffc-4912-8a06-0de300abac1c")
 			(effects
@@ -18943,7 +18943,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "32f55194-a0f0-4d6f-8aa2-876fb2a5407a")
 			(effects
@@ -19124,7 +19124,7 @@
 			(uuid "ea293af2-377b-41e9-bc98-c8de62a04f7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8f1ece30-518d-4e9c-afd3-db8e0f4ac30b")
 			(effects
@@ -21216,6 +21216,70 @@
 		(uuid "3ee46a81-8b13-4daf-b6ca-506d2562f36c")
 	)
 	(gr_line
+		(start 156.5 136)
+		(end 156 131)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43519c1b-c894-4c02-85f5-b0293526337d")
+	)
+	(gr_line
+		(start 158 130.8)
+		(end 159.3 130.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b4bf70a-7c02-4cea-adf0-4510c7577915")
+	)
+	(gr_poly
+		(pts
+			(xy 156 130.2) (xy 155.7 131.2) (xy 156.3 131.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "604ebc0a-f661-4771-8409-b7561f3c0224")
+	)
+	(gr_poly
+		(pts
+			(xy 160 130.1) (xy 159.4 130.3) (xy 160 130.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6ddea38b-80ab-4c4d-b264-ce824b2e2e48")
+	)
+	(gr_line
+		(start 158 130.8)
+		(end 156.2 132.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f02f626-ff55-4c82-b7bf-3ff887b024bb")
+	)
+	(gr_line
+		(start 159.3 130.7)
+		(end 159.7 130.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b2b47bf8-e445-4c08-ac38-6fb97ca52464")
+	)
+	(gr_line
 		(start 164.5 151.5)
 		(end 164.5 156)
 		(stroke
@@ -21276,6 +21340,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c0095793-4b2a-4597-8e6e-6b567b7d298b")
+	)
+	(gr_text "PWM\nR17 On\nR10, R6 Off\n"
+		(at 155 140.4 0)
+		(layer "F.SilkS")
+		(uuid "1f70fde3-a214-4a66-b1f7-b5fbc88aa562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Limit"
 		(at 172.5 145.30175 0)
