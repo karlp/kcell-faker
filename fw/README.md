@@ -6,3 +6,4 @@ Micropython, because, let's do things easy
 # References
 https://github.com/i-am-shodan/USBArmyKnife has a lot of overlapping tech at play, though (obviously) very different applications
 
+micropython will need very recent work to get usb device in python land: https://github.com/micropython/micropython/pull/15108
