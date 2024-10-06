@@ -3622,6 +3622,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 101.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4c8739-0893-44cb-b2f3-72328d511200")
+	)
+	(wire
+		(pts
 			(xy 106.68 55.88) (xy 101.6 55.88)
 		)
 		(stroke
@@ -4548,7 +4558,7 @@
 		(uuid "035e1787-564e-43dc-90f3-817990db3a1c")
 	)
 	(label "SPI2_CS0"
-		(at 106.68 81.28 0)
+		(at 106.68 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4581,7 +4591,7 @@
 		(uuid "2396ea47-2714-4866-84b8-99c66230ba63")
 	)
 	(label "BTN_RANGE"
-		(at 66.04 78.74 180)
+		(at 66.04 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4680,18 +4690,18 @@
 		(uuid "6cb4c788-9898-4c15-8bb8-6f70b45a128d")
 	)
 	(label "LED1"
-		(at 66.04 76.2 180)
+		(at 106.68 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7893df0c-d30f-44c8-81f3-7f9a33605be1")
 	)
 	(label "BTN_DOWN"
-		(at 66.04 81.28 180)
+		(at 66.04 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4735,7 +4745,7 @@
 		(uuid "90b034d3-7c6c-4ecf-8734-0b224885882e")
 	)
 	(label "LED2"
-		(at 66.04 73.66 180)
+		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4812,7 +4822,7 @@
 		(uuid "cea301cc-dddf-4f81-ab27-76532a80ad55")
 	)
 	(label "SPI2_D"
-		(at 106.68 53.34 0)
+		(at 106.68 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4889,7 +4899,7 @@
 		(uuid "f0a74daf-1c02-4124-a6a4-a91c3875bb8b")
 	)
 	(label "SPI2_CLK"
-		(at 106.68 55.88 0)
+		(at 106.68 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

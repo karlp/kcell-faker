@@ -2538,7 +2538,7 @@
 		)
 		(symbol "SRV05-4_1_1"
 			(pin passive line
-				(at -10.16 2.54 0)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -2574,7 +2574,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -2592,7 +2592,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 2.54 180)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "100"
 					(effects
