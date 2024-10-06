@@ -9,6 +9,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "09fed8b0-e791-4f84-8c0d-d388df3bef28")
 		(effects
 			(font
@@ -18,7 +19,7 @@
 		)
 	)
 	(property "Value" "LogoMarel_5.3x1.1mm"
-		(at 0 1 0)
+		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -79,7 +80,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "991bbfdb-e099-4dfd-a71e-2a66eb9ca5e9")
 	)
 	(fp_poly
@@ -103,7 +104,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "268c741a-57c3-4d21-b120-73050cbe8fd3")
 	)
 	(fp_poly
@@ -132,7 +133,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "13470563-11b0-49c0-9354-d159d25b029e")
 	)
 	(fp_poly
@@ -176,7 +177,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "71c8d9f9-3eee-42fa-bb2e-b676da569153")
 	)
 	(fp_poly
@@ -225,7 +226,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "1e213eda-6aa7-4d95-b2e4-dfb701979829")
 	)
 	(fp_poly
@@ -278,7 +279,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "3c87a22e-eda9-43d0-9ee2-7dd83521e9a6")
 	)
 	(fp_poly
@@ -337,11 +338,11 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "43d34b12-0319-4e67-a21b-996874d9f8dc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "297e86a8-7d20-488b-98b7-744ceb5e34e3")
