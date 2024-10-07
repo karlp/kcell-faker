@@ -2728,6 +2728,163 @@
 				)
 			)
 		)
+		(symbol "karl-atomic-basic:KR0603_510R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "510R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "0603WAF5100T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part#" "C23193"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "jlcbasic" "basic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KR0603_510R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "KR0603_510R_1_1"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "karl-atomic-basic:Logo_Marel"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3342,6 +3499,12 @@
 		(uuid "9887faaa-68de-4549-9c3b-a11cf0d33bfc")
 	)
 	(junction
+		(at 60.96 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "992af1fb-4eb7-439e-a6da-390dda8da722")
+	)
+	(junction
 		(at 129.54 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3772,6 +3935,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5f5d46-83db-411e-8d46-8403f87da53b")
+	)
+	(wire
+		(pts
 			(xy 50.8 53.34) (xy 71.12 53.34)
 		)
 		(stroke
@@ -3869,6 +4042,16 @@
 			(type default)
 		)
 		(uuid "74c2943e-8c55-43b5-b356-0c3b73f3ac1b")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fd636b-29ab-4c43-97f6-5727b063126d")
 	)
 	(wire
 		(pts
@@ -4032,7 +4215,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 71.12 43.18)
+			(xy 58.42 43.18) (xy 60.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4315,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 124.46 30.48)
+			(xy 101.6 30.48) (xy 106.68 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4402,6 +4585,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed6f3e5-4b02-4c56-9646-979729628de4")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 53.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f131223b-1b2a-4da3-9e89-1a8db04a778f")
+	)
+	(wire
+		(pts
 			(xy 165.1 35.56) (xy 175.26 35.56)
 		)
 		(stroke
@@ -4429,6 +4632,16 @@
 			(type default)
 		)
 		(uuid "f29598b9-defe-43e7-9509-a58895a55c7e")
+	)
+	(wire
+		(pts
+			(xy 111.76 30.48) (xy 124.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f77666-afd7-4b32-93e3-dd2893862721")
 	)
 	(wire
 		(pts
@@ -6187,7 +6400,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e2cb5ce-b369-480d-a5a8-0fec22129786")
 		(property "Reference" "R22"
 			(at 55.88 38.1 90)
@@ -6198,7 +6410,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 55.88 40.64 90)
+			(at 55.88 45.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6799,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " KT-0805G"
+		(property "MPN" "KT-0805G"
 			(at 35.56 170.18 0)
 			(effects
 				(font
@@ -6654,7 +6866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "marel-footprints:Logo_Marel_5.3x1.1mm"
+		(property "Footprint" "marel-footprints:Logo_Marel_5.3x1.1mm_copper"
 			(at 246.38 129.54 0)
 			(effects
 				(font
@@ -6911,6 +7123,92 @@
 		)
 	)
 	(symbol
+		(lib_id "karl-atomic-basic:KR0603_10k")
+		(at 55.88 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7a597a4b-3144-42b2-840c-d2f35cca0e22")
+		(property "Reference" "R20"
+			(at 55.88 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 55.88 45.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C25804"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59393a81-4d3a-4a96-955a-0d2bcdab8396")
+		)
+		(pin "1"
+			(uuid "36c613b8-8db3-4e7e-8d03-b1e7c3cd284b")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 187.96 0)
 		(unit 1)
@@ -7085,6 +7383,101 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "karl-atomic-basic:KR0603_510R")
+		(at 109.22 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951c5e77-dbee-4de2-b622-2c2ceee38af3")
+		(property "Reference" "R19"
+			(at 109.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510R"
+			(at 109.22 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 0603"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF5100T5E"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C23193"
+			(at 109.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlcbasic" "basic"
+			(at 109.22 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef62791f-2303-40ce-ae71-10b050d6284f")
+		)
+		(pin "1"
+			(uuid "916b920e-9dff-4754-9a70-c60c895fd5ea")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7447,6 +7840,72 @@
 			(project "kcell-faker"
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a58174c7-e0d5-4a17-a94f-cc748baf8b76")
+		(property "Reference" "#PWR036"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12c22bc-1d64-4dd1-88a9-a3629f1e520c")
+		)
+		(instances
+			(project "kcell-faker"
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

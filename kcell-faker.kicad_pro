@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,30 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|119900000|100750000|3592ab93-a996-4b8f-9de8-f1e75a1a3c79|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|100000000|102290000|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|136849ca-70dd-4f99-a3de-336466c653e9",
+        "silk_edge_clearance|100000000|115330000|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|f963f9ea-2887-48f9-a545-bcac31940570",
+        "silk_edge_clearance|100000000|116416666|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|1c2d92ed-3c0a-413c-ab63-ee6f2fe689d1",
+        "silk_edge_clearance|100000000|129456666|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|6ce57759-a1f4-47ce-9327-ca6cebe4d933",
+        "silk_edge_clearance|100000000|130543332|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|0596dd88-5e5e-40a3-a768-508760fee5e1",
+        "silk_edge_clearance|100000000|143583332|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|64d404fd-55bd-4fec-89a3-542b63faa1db",
+        "silk_edge_clearance|100000000|144670000|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|92784951-2c57-42ba-b60d-2fbc82c935bd",
+        "silk_edge_clearance|100000000|157710000|620f2063-155d-4320-bfdb-5b2a9a2fbc1e|0d46b0f5-95ad-41cf-9b4c-06eb5a4c2762",
+        "silk_edge_clearance|119480000|160000000|c0095793-4b2a-4597-8e6e-6b567b7d298b|6fdd5855-7746-409c-89d4-62303452cde3",
+        "silk_edge_clearance|127200000|100000000|46c8207d-7a5c-4a40-8da7-b319834e0ba9|7a87915a-0a2f-42f1-947c-c2f415b80976",
+        "silk_edge_clearance|128710000|160000000|c0095793-4b2a-4597-8e6e-6b567b7d298b|4226a556-3c49-4ac5-accb-443496fef156",
+        "silk_edge_clearance|142800000|100000000|46c8207d-7a5c-4a40-8da7-b319834e0ba9|fa8498d7-5883-4213-92aa-7f2d8c61d90f",
+        "silk_edge_clearance|180000000|118210000|2937d3f3-5aea-475b-87d6-d371072e986e|ffb02192-068b-4880-9f36-76951ebf3a99",
+        "silk_edge_clearance|180000000|142680000|2937d3f3-5aea-475b-87d6-d371072e986e|ea4b0413-e35c-4071-bc47-adabf2d3542d",
+        "starved_thermal|118475000|128595000|5eb26f91-30ee-4538-92c4-ded6b2da3235|8da6d940-3a4a-41f9-aaea-7cfe2d34a0c0|F.Cu",
+        "starved_thermal|118475000|131135000|5eb26f91-30ee-4538-92c4-ded6b2da3235|ee2db644-510b-48a7-a77d-6575daec380c|F.Cu",
+        "starved_thermal|118475000|133675000|5eb26f91-30ee-4538-92c4-ded6b2da3235|4197439f-8548-4df7-af28-70f16c495ff4|F.Cu",
+        "starved_thermal|126000000|102745000|5eb26f91-30ee-4538-92c4-ded6b2da3235|59fc5ed7-065c-4362-8554-ecb1217c8ddd|F.Cu",
+        "starved_thermal|128000000|115550000|5eb26f91-30ee-4538-92c4-ded6b2da3235|25ebb53c-5acf-4c99-a4e2-ef0de7a979c7|F.Cu",
+        "starved_thermal|143200000|152820000|5eb26f91-30ee-4538-92c4-ded6b2da3235|6a739e7f-d149-4818-a026-671cf67b6533|F.Cu",
+        "starved_thermal|143200000|152820000|5eb26f91-30ee-4538-92c4-ded6b2da3235|f3661232-5f90-4136-b03c-00651602da5d|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -482,6 +505,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "bridge-core",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "power-distribution",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(99, 255, 63)",
@@ -515,10 +555,24 @@
     "netclass_assignments": {
       "+3V3": "power-distribution",
       "+5V": "power-distribution",
+      "+VDC": "bridge-core",
+      "-VDC": "bridge-core",
+      "/bridge_sim/BR_OUT+": "bridge-core",
+      "/bridge_sim/BR_OUT-": "bridge-core",
+      "Net-(Q1-D)": "bridge-core",
+      "Net-(R10-Pad2)": "bridge-core",
+      "Net-(R15-Pad1)": "bridge-core",
+      "Net-(U1-PW0)": "bridge-core",
+      "Net-(U4-PW0)": "bridge-core",
       "USBN": "usb-4l-7628",
       "USBP": "usb-4l-7628"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -573,7 +627,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

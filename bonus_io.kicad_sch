@@ -2296,6 +2296,17 @@
 		)
 		(uuid "2d03f3c5-460b-4c34-81c9-d868d131a5bd")
 	)
+	(label "OUT1"
+		(at 226.06 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30871bc8-bd17-4b8f-9808-042e0f1c93bd")
+	)
 	(label "COM"
 		(at 215.9 101.6 0)
 		(fields_autoplaced yes)
@@ -2372,6 +2383,39 @@
 			(justify left bottom)
 		)
 		(uuid "70e5f202-bc48-4436-bb63-e17c8fca3d5f")
+	)
+	(label "OUT4"
+		(at 226.06 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "822ad512-eb62-419b-81b1-18c3e9114b0a")
+	)
+	(label "OUT3"
+		(at 226.06 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a39d0e1-76b8-45c4-9e60-88a72e047327")
+	)
+	(label "OUT2"
+		(at 226.06 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af4acebf-0eae-4353-ba9b-63c593a8bb12")
 	)
 	(label "COM"
 		(at 233.68 139.7 180)

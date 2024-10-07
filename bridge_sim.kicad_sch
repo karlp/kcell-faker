@@ -3793,7 +3793,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 101.6 134.62)
+			(xy 101.6 116.84) (xy 101.6 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3883,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 101.6 106.68)
+			(xy 101.6 96.52) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4207,6 +4207,213 @@
 			(justify right)
 		)
 		(uuid "ce4096b3-ba32-4e67-83d4-da896843c735")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 152.4 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f451502-3287-45d7-9267-cb37eec7f257")
+		(property "Netclass" "bridge-core"
+			(at 153.0985 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 110.49 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121fbe46-7ba7-448e-8711-f27d66264850")
+		(property "Netclass" "bridge-core"
+			(at 111.1885 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 213.36 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48012df9-301b-4700-b09a-0f79ff1f958b")
+		(property "Netclass" "bridge-core"
+			(at 214.0585 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 87.63 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "664ee1c7-6904-48c2-a01a-3277f4eb4391")
+		(property "Netclass" "bridge-core"
+			(at 88.3285 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 109.22 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86488dd4-52bf-44c9-ba5a-2e8a62e7df52")
+		(property "Netclass" "bridge-core"
+			(at 99.06 108.5215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 170.18 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2a85bed-44cf-4049-8f39-d172c4469942")
+		(property "Netclass" "bridge-core"
+			(at 170.8785 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 195.58 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dec388bb-a28b-4d42-a182-8ceb00b4e0d9")
+		(property "Netclass" "bridge-core"
+			(at 196.2785 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 139.7 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dec55c60-b5a2-4b3f-adb6-c0a044a66e60")
+		(property "Netclass" "bridge-core"
+			(at 140.3985 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 152.4 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7fa1ca0-dee3-4ebc-b679-a7dce910d9d8")
+		(property "Netclass" "bridge-core"
+			(at 153.0985 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+VDC")
@@ -5506,7 +5713,7 @@
 	)
 	(symbol
 		(lib_id "karl-atomic-basic:KR0805_150k")
-		(at 101.6 109.22 0)
+		(at 101.6 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5722,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ca05d79-baaf-4c50-9fd6-337cf0a026d2")
 		(property "Reference" "R15"
-			(at 104.14 107.9499 0)
+			(at 104.14 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5731,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 104.14 110.4899 0)
+			(at 104.14 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5740,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 109.22 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 109.22 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5758,7 @@
 			)
 		)
 		(property "Description" "Resistor, 0805"
-			(at 101.6 109.22 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5767,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1503T5E"
-			(at 101.6 109.22 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5776,7 @@
 			)
 		)
 		(property "LCSC Part#" "C17470"
-			(at 101.6 109.22 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
