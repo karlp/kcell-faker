@@ -1589,6 +1589,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1600,6 +1601,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1766,7 +1768,7 @@
 				)
 			)
 		)
-		(property "MPN" " KT-0805G"
+		(property "MPN" "KT-0805G"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4608,7 +4610,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 6.95 0 360)
+			(at 6.95 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5e66f21f-9343-4fb3-9d66-57e7e5efe163")
@@ -6594,6 +6596,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6605,6 +6608,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11695,6 +11699,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11706,6 +11711,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14939,6 +14945,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14950,6 +14957,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17415,6 +17423,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17426,6 +17435,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17668,6 +17678,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17679,6 +17690,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21664,6 +21676,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21675,6 +21688,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -26568,6 +26582,14 @@
 		(uuid "fcadc58f-c182-4e18-9b43-b88ad3db8ea8")
 	)
 	(segment
+		(start 113.525 122.525)
+		(end 113.5 122.5)
+		(width 1.2)
+		(layer "F.Cu")
+		(net 65)
+		(uuid "03e710d4-3513-4ebe-959e-96b08716bdbd")
+	)
+	(segment
 		(start 115.325 124.3)
 		(end 113.8 124.3)
 		(width 1.2)
@@ -26598,6 +26620,14 @@
 		(layer "F.Cu")
 		(net 65)
 		(uuid "bd1b96c7-a28e-4c5c-ac51-aae5881fb80d")
+	)
+	(segment
+		(start 113.525 124.025)
+		(end 113.525 122.525)
+		(width 1.2)
+		(layer "F.Cu")
+		(net 65)
+		(uuid "c438ba06-85cb-4b00-9e55-58125a091be8")
 	)
 	(via
 		(at 113.5 124)
