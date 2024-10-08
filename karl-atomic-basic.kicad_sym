@@ -2055,7 +2055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " SRV05-4"
+		(property "MPN" "SRV05-4"
 			(at 0 0 0)
 			(effects
 				(font
