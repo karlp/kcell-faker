@@ -4090,15 +4090,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C15850"
-			(at 76.2 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C15850"
 			(at 76.2 67.31 0)
 			(effects
@@ -4402,15 +4393,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C6332249"
-			(at 96.52 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C6332249"
 			(at 96.52 160.02 0)
 			(effects
@@ -4524,15 +4506,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C430323"
-			(at 58.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C430323"
 			(at 58.42 96.52 0)
 			(effects
@@ -4602,15 +4575,6 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C21189"
 			(at 116.84 152.4 0)
 			(effects
 				(font
@@ -4923,15 +4887,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C23186"
-			(at 195.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C23186"
 			(at 195.58 78.74 0)
 			(effects
@@ -5010,15 +4965,6 @@
 			)
 		)
 		(property "MPN" "0603WAF5101T5E"
-			(at 195.58 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C23186"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -5173,15 +5119,6 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "lcsc2#" "C85364"
 			(at 220.98 91.44 0)
 			(effects
@@ -5202,15 +5139,6 @@
 		)
 		(property "MPN" "SRV05-4"
 			(at 224.0981 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC Part#" "C7420376"
-			(at 224.0981 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,25 +5647,7 @@
 				(hide yes)
 			)
 		)
-		(property "jlc-basic" "1"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "jlcbasic" "basic"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C6186"
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -6089,15 +5999,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C2927038"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "USB-TYPE-C-018"
 			(at 157.48 88.9 0)
 			(effects
@@ -6233,15 +6134,6 @@
 		)
 		(property "MPN" "CL21A106KAYNNNE"
 			(at 50.546 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C15850"
-			(at 50.8 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

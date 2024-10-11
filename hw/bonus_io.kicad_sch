@@ -2528,15 +2528,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C8406"
-			(at 243.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "WJ15EDGRC-3.81-3P"
 			(at 243.84 139.7 0)
 			(effects
@@ -2751,15 +2742,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C8406"
 			(at 243.84 127 0)
 			(effects
 				(font
@@ -3056,15 +3038,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C8406"
-			(at 243.84 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "WJ15EDGRC-3.81-3P"
 			(at 243.84 154.94 0)
 			(effects
@@ -3147,15 +3120,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C8406"
 			(at 243.84 114.3 0)
 			(effects
 				(font
@@ -3257,15 +3221,6 @@
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
 			(at 213.106 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C14663"
-			(at 213.36 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,15 +3447,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C7512"
-			(at 195.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C7512"
 			(at 195.58 124.46 0)
 			(effects
@@ -3624,15 +3570,6 @@
 		)
 		(property "MPN" "HX PZ2.54-3x5P ZZ"
 			(at 76.2 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C32713292"
-			(at 76.454 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)

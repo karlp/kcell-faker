@@ -4552,15 +4552,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C106900"
-			(at 104.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C106900 "
 			(at 104.14 35.56 0)
 			(effects
@@ -4647,15 +4638,6 @@
 			)
 		)
 		(property "MPN" "0805W8F3300T5E"
-			(at 175.26 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C17630"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -4884,15 +4866,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C17633"
-			(at 208.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C17633"
 			(at 208.28 93.98 0)
 			(effects
@@ -5047,15 +5020,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C4216"
-			(at 124.46 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C4216"
 			(at 124.46 33.02 0)
 			(effects
@@ -5142,15 +5106,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C17633"
-			(at 165.1 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C17633"
 			(at 165.1 86.36 0)
 			(effects
@@ -5225,15 +5180,6 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 137.16 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C20917"
 			(at 137.16 38.1 0)
 			(effects
 				(font
@@ -5343,15 +5289,6 @@
 			)
 		)
 		(property "MPN" "MCP4131-104E/SN"
-			(at 71.12 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C636034"
 			(at 71.12 86.36 0)
 			(effects
 				(font
@@ -5532,15 +5469,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C17630"
-			(at 175.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C17630"
 			(at 175.26 81.28 0)
 			(effects
@@ -5610,15 +5538,6 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 147.32 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C21189"
 			(at 147.32 86.36 0)
 			(effects
 				(font
@@ -5856,15 +5775,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C17470"
-			(at 101.6 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C17470"
 			(at 101.6 114.3 0)
 			(effects
@@ -5953,15 +5863,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C14663"
-			(at 55.88 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C14663"
 			(at 55.88 113.03 0)
 			(effects
@@ -6033,15 +5934,6 @@
 			)
 		)
 		(property "Description" "Resistor, 0603"
-			(at 152.4 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C21189"
 			(at 152.4 81.28 0)
 			(effects
 				(font
@@ -6139,15 +6031,6 @@
 			)
 		)
 		(property "MPN" "0805W8F3300T5E"
-			(at 200.66 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C17630"
 			(at 200.66 81.28 0)
 			(effects
 				(font
@@ -6310,15 +6193,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C17630"
-			(at 200.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C17630"
 			(at 200.66 93.98 0)
 			(effects
@@ -6399,15 +6273,6 @@
 			)
 		)
 		(property "MPN" "0603WAF3300T5E"
-			(at 124.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C23138"
 			(at 124.46 43.18 0)
 			(effects
 				(font
@@ -6582,15 +6447,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C23138"
-			(at 81.28 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC Part #" "C23138"
 			(at 81.28 33.02 0)
 			(effects
@@ -6680,15 +6536,6 @@
 			)
 		)
 		(property "MPN" "MCP4131-104E/SN"
-			(at 71.12 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C636034"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -6870,15 +6717,6 @@
 			)
 		)
 		(property "lcsc2#" ""
-			(at 228.6 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C387811"
 			(at 228.6 35.56 0)
 			(effects
 				(font
@@ -7176,15 +7014,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part#" "C21189"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MPN" "0603WAF0000T5E"
 			(at 101.6 93.98 0)
 			(effects
@@ -7472,15 +7301,6 @@
 			)
 		)
 		(property "MPN" "0805W8F2203T5E"
-			(at 215.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C17556"
 			(at 215.9 93.98 0)
 			(effects
 				(font
