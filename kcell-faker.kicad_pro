@@ -601,7 +601,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -628,7 +628,7 @@
           "group_by": false,
           "label": "LCSC Part#",
           "name": "LCSC Part#",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -664,7 +664,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

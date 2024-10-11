@@ -4411,6 +4411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C6332249"
+			(at 96.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fad376cc-7ddd-4930-b8e1-ca6b3e2f61a4")
 		)
@@ -4516,6 +4525,15 @@
 			)
 		)
 		(property "LCSC Part#" "C430323"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C430323"
 			(at 58.42 96.52 0)
 			(effects
 				(font
@@ -5728,6 +5746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C6186"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c36e034f-5ef9-4539-b989-794240150d40")
 		)
@@ -6072,6 +6099,15 @@
 			)
 		)
 		(property "MPN" "USB-TYPE-C-018"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2927038"
 			(at 157.48 88.9 0)
 			(effects
 				(font
