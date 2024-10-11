@@ -466,7 +466,7 @@
 				)
 			)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -474,21 +474,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -509,7 +507,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -536,7 +534,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -648,7 +646,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -849,7 +847,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -1494,7 +1492,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C15850"
+			(property "LCSC Part #" "C15850"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1646,7 +1644,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C21189"
+			(property "LCSC Part #" "C21189"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1803,7 +1801,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C23186"
+			(property "LCSC Part #" "C23186"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1942,7 +1940,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" " SRV05-4"
+			(property "MPN" "SRV05-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1951,7 +1949,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C7420376"
+			(property "LCSC Part #" "C7420376"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4101,6 +4099,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00f805fe-6a93-498b-bb54-9f5138e3460b")
 		)
@@ -4603,6 +4610,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C21189"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "13478ff0-e872-447f-9d4b-e3038fb12ae0")
 		)
@@ -4613,155 +4629,6 @@
 			(project ""
 				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/b8556ec6-82a5-42ee-84e7-ab942240d229"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 157.48 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "563fa9f4-26bf-4c04-9c04-27b2dd001647")
-		(property "Reference" "J6"
-			(at 157.48 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 157.48 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 161.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 161.29 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USB-TYPE-C-018"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "jlc-basic" "0"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "lcsc2#" ""
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part#" "C2927038"
-			(at 157.48 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "ebc70a70-2400-4d2e-884d-56c5be276193")
-		)
-		(pin "A12"
-			(uuid "3d7023ba-41d6-4aed-8eb8-c49684a1eb59")
-		)
-		(pin "A4"
-			(uuid "bc8808dc-79b3-4ea5-924c-726d8a9e4432")
-		)
-		(pin "A5"
-			(uuid "33cda2b3-dd2c-488f-b6e1-cbf4c27142f4")
-		)
-		(pin "A6"
-			(uuid "bc93af12-211f-4297-89f5-47887d81f6d9")
-		)
-		(pin "A7"
-			(uuid "3e4de14f-fdda-4929-8bc7-46441d6016fd")
-		)
-		(pin "A8"
-			(uuid "1376e54e-88a2-47e0-9ea2-33ee5a8e7543")
-		)
-		(pin "A9"
-			(uuid "c5ddfe2d-2310-44a3-98d5-d7f5a08c4c98")
-		)
-		(pin "B1"
-			(uuid "5cdf786a-37b9-4ec2-a6e1-fdbfb79df150")
-		)
-		(pin "B12"
-			(uuid "a8b84dec-5e41-4032-aacf-c01620d7cada")
-		)
-		(pin "B4"
-			(uuid "c83ed8c7-c321-4596-89f7-89cf71927e59")
-		)
-		(pin "B5"
-			(uuid "baab347c-dd3c-42e2-bf5e-89689de4771d")
-		)
-		(pin "B6"
-			(uuid "691cd5a2-84ed-4180-b747-b8811773815c")
-		)
-		(pin "B7"
-			(uuid "a4d83d9e-9895-4058-9dd1-f5704afd9d36")
-		)
-		(pin "B8"
-			(uuid "c5abb903-deac-4faa-9665-4201b0e18531")
-		)
-		(pin "B9"
-			(uuid "be468101-9ff4-414a-8450-328d8a082588")
-		)
-		(pin "S1"
-			(uuid "a04bc3bc-fa27-4cf2-8c36-b3831e365bfe")
-		)
-		(instances
-			(project "kcell-faker"
-				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/b8556ec6-82a5-42ee-84e7-ab942240d229"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5047,6 +4914,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23186"
+			(at 195.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7383f5fb-5907-4012-84e6-6dea63bd79cd")
 		)
@@ -5125,6 +5001,15 @@
 			)
 		)
 		(property "LCSC Part#" "C23186"
+			(at 195.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23186"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -5297,7 +5182,7 @@
 				(justify right)
 			)
 		)
-		(property "MPN" " SRV05-4"
+		(property "MPN" "SRV05-4"
 			(at 224.0981 76.2 0)
 			(effects
 				(font
@@ -5313,6 +5198,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC Part #" "C7420376"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6116,6 +6010,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 157.48 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7df53cb-3d68-4ea4-a415-acd944e9c751")
+		(property "Reference" "J6"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 157.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part#" "C2927038"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB-TYPE-C-018"
+			(at 157.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "8b32be34-1490-4197-baf5-07e764e86367")
+		)
+		(pin "B4"
+			(uuid "0addfe3a-95db-45f4-96e2-78784bd8b769")
+		)
+		(pin "A9"
+			(uuid "0e1652e4-6c5a-4ba1-b6b0-e72decfe93fe")
+		)
+		(pin "B9"
+			(uuid "d1f56149-f9f5-4c66-8af2-8b1dce1f8aba")
+		)
+		(pin "B1"
+			(uuid "82effefa-cbd6-4267-b42c-0a2303c29f50")
+		)
+		(pin "B12"
+			(uuid "22f3fdeb-2852-4075-a74c-eeaee8d13dd9")
+		)
+		(pin "A7"
+			(uuid "61b63118-08b2-4285-8565-4310675e4423")
+		)
+		(pin "A5"
+			(uuid "cf930178-ab2e-4a15-9dbc-ad6fca52177c")
+		)
+		(pin "A4"
+			(uuid "d7d09053-9fda-4ce1-b64b-675677207c7f")
+		)
+		(pin "B8"
+			(uuid "b9da5eec-9fb6-4df7-9988-b8f1b4a4d92b")
+		)
+		(pin "B6"
+			(uuid "107d9767-0c25-4ed2-a28e-61045249152c")
+		)
+		(pin "A12"
+			(uuid "a385f56f-d2d5-4fa0-b5cf-5d0d47bc18ca")
+		)
+		(pin "B7"
+			(uuid "1809a751-67a4-44ad-b2ad-0f5ffa8f2ead")
+		)
+		(pin "A8"
+			(uuid "5ca1346f-74f2-4a69-b9f8-2df713ab8e5e")
+		)
+		(pin "A6"
+			(uuid "2edf4edd-60d4-4a01-98f8-1e5f76a30cbb")
+		)
+		(pin "B5"
+			(uuid "1da432c9-6e82-4ba9-afb1-e0350a8a4271")
+		)
+		(pin "A1"
+			(uuid "00151d2d-cbde-416c-8a47-e51bac0b8245")
+		)
+		(instances
+			(project ""
+				(path "/dc836b5d-e5fb-485d-8f74-ab331e55e69f/b8556ec6-82a5-42ee-84e7-ab942240d229"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "karl-atomic-basic:KC0805_10uF_25V")
 		(at 50.8 63.5 0)
 		(unit 1)
@@ -6180,6 +6205,15 @@
 			)
 		)
 		(property "LCSC Part#" "C15850"
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
 			(at 50.8 67.31 0)
 			(effects
 				(font

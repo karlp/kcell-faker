@@ -2010,7 +2010,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C14663"
+			(property "LCSC Part #" "C14663"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2171,7 +2171,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C15849"
+			(property "LCSC Part #" "C15849"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2332,7 +2332,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C15850"
+			(property "LCSC Part #" "C15850"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -2493,7 +2493,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C25804"
+			(property "LCSC Part #" "C25804"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2641,7 +2641,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C23138"
+			(property "LCSC Part #" "C23138"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2789,7 +2789,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part#" "C23193"
+			(property "LCSC Part #" "C23193"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4737,17 +4737,6 @@
 		)
 		(uuid "8c7ad5fe-b0a8-4314-83be-e5d01bdb9c5f")
 	)
-	(text "can also do micropython"
-		(exclude_from_sim no)
-		(at -31.242 208.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b95e17ed-c723-42d1-bd0b-2c0915da5a30")
-	)
 	(text "Manual Controls\nRange button toggles coarse/fine digipot\nUp/down just \"up/down\" the spi value for the appropriate range\nGreen LED: which range is in use\nRed LED: ....? current range value has hit a limit?"
 		(exclude_from_sim no)
 		(at 26.924 146.304 0)
@@ -5503,6 +5492,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 129.54 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b8213ea5-d0d8-44eb-805e-243149709dd5")
 		)
@@ -5591,6 +5589,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23138"
+			(at 35.56 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73bbb3f9-cb8b-463a-bca6-dd7e91651d64")
 		)
@@ -5671,6 +5678,15 @@
 			)
 		)
 		(property "LCSC Part#" "C14663"
+			(at 160.02 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 160.02 74.93 0)
 			(effects
 				(font
@@ -5891,6 +5907,15 @@
 			)
 		)
 		(property "LCSC Part#" "C14663"
+			(at 81.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 81.28 186.69 0)
 			(effects
 				(font
@@ -6264,6 +6289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15849"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7052f726-b690-4472-9695-69a4264e7e35")
 		)
@@ -6462,6 +6496,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25804"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fa5cb5a2-392a-4126-a814-7a3f8b0dffef")
 		)
@@ -6608,6 +6651,15 @@
 			)
 		)
 		(property "LCSC Part#" "C15850"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15850"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -6975,6 +7027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 104.14 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb8bc065-ffc7-4ca9-b0c3-467a0063052a")
 		)
@@ -7185,6 +7246,15 @@
 			)
 		)
 		(property "LCSC Part#" "C25804"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
 			(at 55.88 40.64 0)
 			(effects
 				(font
@@ -7468,6 +7538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C23193"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef62791f-2303-40ce-ae71-10b050d6284f")
 		)
@@ -7548,6 +7627,15 @@
 			)
 		)
 		(property "LCSC Part#" "C14663"
+			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 144.78 34.29 0)
 			(effects
 				(font
@@ -8198,6 +8286,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32f9581a-1fd7-403e-ac4b-4f834d4b0bca")
 		)
@@ -8286,6 +8383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15850"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c513b6db-3859-4834-ad90-146d86ce45af")
 		)
@@ -8366,6 +8472,15 @@
 			)
 		)
 		(property "LCSC Part#" "C23138"
+			(at 48.26 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23138"
 			(at 48.26 177.8 0)
 			(effects
 				(font
